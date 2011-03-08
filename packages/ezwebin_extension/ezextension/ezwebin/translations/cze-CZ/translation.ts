@@ -1,4 +1,44 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="cs_CZ">
+<context>
+    <name>design/admin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation>Rok</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation>Měsíc</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Den</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation>Hodina</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation>Minuta</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/content/edit_attribute</name>
+    <message>
+        <source>not translatable</source>
+        <translation>není určeno k překladu</translation>
+    </message>
+    <message>
+        <source>required</source>
+        <translation>vyžadováno</translation>
+    </message>
+    <message>
+        <source>information collector</source>
+        <translation>sběrač informací</translation>
+    </message>
+</context>
 <context>
     <name>design/ezwebin/article/article_index</name>
     <message>
@@ -19,6 +59,10 @@
     <message>
         <source>New comment</source>
         <translation>Přidat komentář</translation>
+    </message>
+    <message>
+        <source>%login_link_startLog in%login_link_end to comment.</source>
+        <translation>Pro přidání komentáře se prosím %login_link_startpřihlašte%login_link_end.</translation>
     </message>
 </context>
 <context>
@@ -162,10 +206,6 @@
         <translation>Hledat přesně tuto frázi</translation>
     </message>
     <message>
-        <source>Search with at least one of the words</source>
-        <translation>Hledat alespoň jedno z těchto slov</translation>
-    </message>
-    <message>
         <source>Published</source>
         <translation>Publikováno</translation>
     </message>
@@ -225,9 +265,6 @@
         <source>Search for &quot;%1&quot; returned %2 matches</source>
         <translation>Během hledání &quot;%1&quot;  bylo nalezeno %2 výsledků</translation>
     </message>
-</context>
-<context>
-    <name>design/ezwebin/content/advancedsearchh</name>
     <message>
         <source>Last month</source>
         <translation>Minulý měsíc</translation>
@@ -241,7 +278,7 @@
     </message>
     <message>
         <source>To select objects, choose the appropriate radiobutton or checkbox(es), and click the &quot;Select&quot; button.</source>
-        <translation>K výběru objektů zaškrtněte odpovídající tlačítka nebo zaškrtávátka a klikněte na tlačítko &quot;Vybrat&quot;.</translation>
+        <translation>K výběru položek zaškrtněte odpovídající tlačítka nebo zaškrtávátka a klikněte na tlačítko &quot;Vybrat&quot;.</translation>
     </message>
     <message>
         <source>Back</source>
@@ -261,7 +298,7 @@
     </message>
     <message>
         <source>To select an object that is a child of one of the displayed objects, click the parent object name to display a list of its children.</source>
-        <translation>Pro zobrazení a zvolení podobjektů zobrazených objektů, klikněte na jejich název.</translation>
+        <translation>Pro zobrazení a zvolení podpoložek zobrazených položek, klikněte na jejich název.</translation>
     </message>
 </context>
 <context>
@@ -280,82 +317,22 @@
     </message>
 </context>
 <context>
-    <name>design/ezwebin/content/diff</name>
+    <name>design/ezwebin/content/datatype</name>
     <message>
-        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Verze &lt;%object_name&gt; [%version_count]</translation>
+        <source>Year</source>
+        <translation>Rok</translation>
     </message>
     <message>
-        <source>Version</source>
-        <translation>Verze</translation>
+        <source>Month</source>
+        <translation>Měsíc</translation>
     </message>
     <message>
-        <source>Status</source>
-        <translation>Stav</translation>
+        <source>Day</source>
+        <translation>Den</translation>
     </message>
     <message>
-        <source>Translations</source>
-        <translation>Překlady</translation>
-    </message>
-    <message>
-        <source>Creator</source>
-        <translation>Vytvořil</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation>Změněno</translation>
-    </message>
-    <message>
-        <source>Draft</source>
-        <translation>Koncept</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation>Publikováno</translation>
-    </message>
-    <message>
-        <source>Pending</source>
-        <translation>Čeká</translation>
-    </message>
-    <message>
-        <source>Archived</source>
-        <translation>Archivováno</translation>
-    </message>
-    <message>
-        <source>Rejected</source>
-        <translation>Odmítnuto</translation>
-    </message>
-    <message>
-        <source>Untouched draft</source>
-        <translation>Nezměněný koncept</translation>
-    </message>
-    <message>
-        <source>This object does not have any versions.</source>
-        <translation>Tento objekt nemá žádné verze.</translation>
-    </message>
-    <message>
-        <source>Show differences</source>
-        <translation>Zobrazit změny</translation>
-    </message>
-    <message>
-        <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>Rozdíly mezi verzemi %oldVersion a %newVersion</translation>
-    </message>
-    <message>
-        <source>Old version</source>
-        <translation>Stará verze</translation>
-    </message>
-    <message>
-        <source>Inline changes</source>
-        <translation>Vepsané změny</translation>
-    </message>
-    <message>
-        <source>Block changes</source>
-        <translation>Změny po blocích</translation>
-    </message>
-    <message>
-        <source>New version</source>
-        <translation>Nová verze</translation>
+        <source>Show calendar to select a date.</source>
+        <translation>Zobrazit kalendáč pro volbu data.</translation>
     </message>
 </context>
 <context>
@@ -422,26 +399,6 @@
 <context>
     <name>design/ezwebin/content/edit</name>
     <message>
-        <source>Manage versions</source>
-        <translation>Spravovat verze</translation>
-    </message>
-    <message>
-        <source>Store and exit</source>
-        <translation>Uložit a odejít</translation>
-    </message>
-    <message>
-        <source>Preview</source>
-        <translation>Náhled</translation>
-    </message>
-    <message>
-        <source>Translate</source>
-        <translation>Přeložit</translation>
-    </message>
-    <message>
-        <source>Edit %1 - %2</source>
-        <translation>Úprava %1 - %2</translation>
-    </message>
-    <message>
         <source>Send for publishing</source>
         <translation>Odeslat k publikaci</translation>
     </message>
@@ -454,27 +411,36 @@
         <translation>Zahodit koncept</translation>
     </message>
     <message>
-        <source>Documentation</source>
-        <translation>Dokumentace</translation>
+        <source>Edit &lt;%object_name&gt; (%class_name)</source>
+        <translation>Úprava konceptu: &lt;%object_name&gt; typu (%class_name)</translation>
     </message>
     <message>
-        <source>Translate from</source>
-        <translation>Přeložit z</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/content/edit_attribute</name>
-    <message>
-        <source>Not translatable</source>
-        <translation>Není možno překládat</translation>
+        <source>Translating content from %from_lang to %to_lang</source>
+        <translation>Překlad obsahu z %from_lang do %to_lang</translation>
     </message>
     <message>
-        <source>Required</source>
-        <translation>Požadováno</translation>
+        <source>Content in %language</source>
+        <translation>Obsah v %language</translation>
     </message>
     <message>
-        <source>Information collector</source>
-        <translation>Sběrač informací</translation>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Publikovat obsah právě upravovaného konceptu. Koncept bude publikován.</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Uložit obsah právě upravovaného konceptu a pokračovat v jeho úpravách. Použijte pro průběžné ukládání vaší práce. V případě ztráty spojení Vám při další úpravě systém nabídne pokračovat od vašeho posledního uložení.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Ukončit úpravy s uložením konceptu</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Uloží právě upravovaný koncept a ukončí úpravy. Systém Vám při příští úpravě tohoto objektu nabídne pokračovat v úpravách tohoto konceptu.</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Zahodit koncept který je právě upravován. Také zahodí jakékoliv překlady tohoto konceptu, pokud existují.</translation>
     </message>
 </context>
 <context>
@@ -566,11 +532,11 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>Select the language you want to use when editing the object.</source>
-        <translation>Zvolte jazyk, ve kterém chcete upravovat objekt.</translation>
+        <translation>Zvolte jazyk ve kterém chcete upravovat objekt.</translation>
     </message>
     <message>
         <source>Select the language you want to add to the object.</source>
-        <translation>Zvolte jazyk, který chcete přidat k objektu.</translation>
+        <translation>Zvolte jazyk který chcete přidat k objektu.</translation>
     </message>
     <message>
         <source>Select the language the new translation will be based on.</source>
@@ -586,7 +552,7 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>However, you can select one of the following languages for editing.</source>
-        <translation>Nicméně, můžete zvolit jeden z následujících jazyků pro úpravy objektu.</translation>
+        <translation>Nicméně můžete zvolit jeden z následujících jazyků pro úpravy objektu.</translation>
     </message>
 </context>
 <context>
@@ -605,11 +571,11 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
-        <translation>Limit uložení historie verzí byl překročen a žádná archivovanou verzi nemůže být systémem automaticky odstraněna.</translation>
+        <translation>Limit uložení historie verzí byl překročen a žádná archivovaná verze nemůže být systémem automaticky odstraněna.</translation>
     </message>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Verze &lt;%object_name&gt; [%version_count]</translation>
+        <translation>Verze pro &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
         <source>Version</source>
@@ -673,7 +639,7 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation>Tento objekt nemá žádné verze.</translation>
+        <translation>Tato položka nemá žádné verze.</translation>
     </message>
     <message>
         <source>Remove selected</source>
@@ -681,7 +647,7 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>Remove the selected versions from the object.</source>
-        <translation>Odstranit vybrané verze objektu.</translation>
+        <translation>Odstranit vybrané verze položky.</translation>
     </message>
     <message>
         <source>Show differences</source>
@@ -705,7 +671,7 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>This object does not have any drafts.</source>
-        <translation>Tento objekt nemá žádné koncepty.</translation>
+        <translation>Tato položka nemá žádné koncepty.</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
@@ -717,7 +683,7 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>Inline changes</source>
-        <translation>Vepsané změny</translation>
+        <translation>Změny vepsaně</translation>
     </message>
     <message>
         <source>Block changes</source>
@@ -734,10 +700,6 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     <message>
         <source>Toggle selection</source>
         <translation>Obrátit výběr</translation>
-    </message>
-    <message>
-        <source>Edited language</source>
-        <translation>Upravovaný jazyk</translation>
     </message>
     <message>
         <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
@@ -771,6 +733,10 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
         <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
         <translation>Nemůžete upravovat obsah verze #%version_number (buď to není koncept nebo nemáte oprávnění k úpravám objektu).</translation>
     </message>
+    <message>
+        <source>Modified translation</source>
+        <translation>Změněný překlad</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/keyword</name>
@@ -785,6 +751,41 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     <message>
         <source>Type</source>
         <translation>Typ</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/content/pendinglist</name>
+    <message>
+        <source>My pending items [%pending_count]</source>
+        <translation>Mé ke schválení</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Jméno</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Třída</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sekce</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Verze</translation>
+    </message>
+    <message>
+        <source>Last modified</source>
+        <translation>Naposledy změněno</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Není známo</translation>
+    </message>
+    <message>
+        <source>Your pending list is empty</source>
+        <translation>Seznam položek ke schválení je prázdný</translation>
     </message>
 </context>
 <context>
@@ -835,7 +836,7 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     <name>design/ezwebin/content/tipafriend</name>
     <message>
         <source>Tip a friend</source>
-        <translation>Upozornit přítele</translation>
+        <translation>Poslat mailem</translation>
     </message>
     <message>
         <source>The message was sent.</source>
@@ -880,21 +881,6 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     <message>
         <source>Recipient&apos;s email address</source>
         <translation>E-mailová adresa příjemce</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/content/view/versionview</name>
-    <message>
-        <source>Edit</source>
-        <translation>Upravit</translation>
-    </message>
-    <message>
-        <source>Publish</source>
-        <translation>Publikovat</translation>
-    </message>
-    <message>
-        <source>Manage versions</source>
-        <translation>Spravovat verze</translation>
     </message>
 </context>
 <context>
@@ -1003,6 +989,105 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
 </context>
 <context>
+    <name>design/ezwebin/ezodf/browse_place</name>
+    <message>
+        <source>Choose document placement</source>
+        <translation>Vyberte umístění dokumentu</translation>
+    </message>
+    <message>
+        <source>Please choose the placement for the OpenOffice.org object.
+
+    Select the placements and click the %buttonname button.
+    Using the recent and bookmark items for quick placement is also possible.
+    Click on placement names to change the browse listing.</source>
+        <translation>Prosím vyberte umístění pro objekt z OpenOffice.org.
+
+    Zvolte umístění a klikněte na tlačícko %buttonname.
+    Můžete také použít nedávno navštívené prvky nebo vaše oblíbené prvky pro rychlý výběr umístění.
+    Pro zobrazení podprvků klikněte na název nadřazených prvků.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Vybrat</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/ezodf/export</name>
+    <message>
+        <source>OpenOffice.org export</source>
+        <translation>OpenOffice.org export</translation>
+    </message>
+    <message>
+        <source>Export eZ publish content to OpenOffice.org</source>
+        <translation>Export obsahu z eZ publish do OpenOffice.org</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Chyba</translation>
+    </message>
+    <message>
+        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
+        <translation>Zde můžete exportovat jakoukoliv položku z eZ publish do formátu OpenOffice.org Writer.</translation>
+    </message>
+    <message>
+        <source>Export Object</source>
+        <translation>Exportovat položku</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/ezodf/import</name>
+    <message>
+        <source>Document is now imported</source>
+        <translation>Dokument je importován</translation>
+    </message>
+    <message>
+        <source>OpenOffice.org import</source>
+        <translation>Import z OpenOffice.org</translation>
+    </message>
+    <message>
+        <source>The object was imported as: %class_name</source>
+        <translation>Objekt byl importován jako typ: %class_name</translation>
+    </message>
+    <message>
+        <source>Document imported as</source>
+        <translation>Dokument importován jako </translation>
+    </message>
+    <message>
+        <source>The images are placed in the media and can be re-used.</source>
+        <translation>Obrázky jsou umístěny v médiích a mohou být použity i jinde.</translation>
+    </message>
+    <message>
+        <source>Import another document</source>
+        <translation>Importovat další dokument</translation>
+    </message>
+    <message>
+        <source>Upload file</source>
+        <translation>Nahrát soubor</translation>
+    </message>
+    <message>
+        <source>Import OpenOffice.org document</source>
+        <translation>Importovat dokument OpenOffice.org</translation>
+    </message>
+    <message>
+        <source>Replace document</source>
+        <translation>Nahradit dokument</translation>
+    </message>
+    <message>
+        <source>Import to</source>
+        <translation>Importovat do</translation>
+    </message>
+    <message>
+        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
+asked where to place the document and eZ publish does the rest. The document is converted into
+the appropriate class during the import, you get a notice about this after the import is done.
+Images are placed in the media library so you can re-use them in other articles.</source>
+        <translation>Přímo na této stránce můžete provést import dokumentů z aplikace OpenOffice.org Writer do eZ Publish. Pouze 
+vyberete, kde má být nový objekt umístěn a eZ Publish zařídí zbytek. Dokument bude konvertován do
+odpovídající typy obsahu během importu - na konci importu budete na toto upozorněni.
+Obrázky budou umístěny do knihovny médií, takže je můžete použít i v jiných článcích.</translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/full/article</name>
     <message>
         <source>Comments</source>
@@ -1014,25 +1099,29 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>Tip a friend</source>
-        <translation>Upozornit přítele</translation>
+        <translation>Poslat mailem</translation>
     </message>
     <message>
         <source>New comment</source>
         <translation>Přidat komentář</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation>Související obsah</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/article_mainpage</name>
     <message>
         <source>Tip a friend</source>
-        <translation>Upozornit přítele</translation>
+        <translation>Poslat mailem</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/article_subpage</name>
     <message>
         <source>Tip a friend</source>
-        <translation>Upozornit přítele</translation>
+        <translation>Poslat mailem</translation>
     </message>
 </context>
 <context>
@@ -1110,12 +1199,16 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
         <source>Category</source>
         <translation>Kategorie</translation>
     </message>
+    <message>
+        <source>Show All Events..</source>
+        <translation>Zobrazit všechny události..</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
     <message>
         <source>Past events</source>
-        <translation>Předchozí události</translation>
+        <translation>Minulé události</translation>
     </message>
     <message>
         <source>Future events</source>
@@ -1137,7 +1230,7 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>Keep me updated</source>
-        <translation>Informovat o změnách</translation>
+        <translation>Informovat o změnách mailem</translation>
     </message>
     <message>
         <source>You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%</source>
@@ -1207,7 +1300,7 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>Keep me updated</source>
-        <translation>Upozornit na změny</translation>
+        <translation>Upozorňovat na změny a odpovědi mailem</translation>
     </message>
     <message>
         <source>Author</source>
@@ -1256,6 +1349,10 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
         <source>Last reply</source>
         <translation>Poslední příspěvek</translation>
     </message>
+    <message>
+        <source>Forum</source>
+        <translation>Fórum</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/gallery</name>
@@ -1273,6 +1370,10 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     <message>
         <source>Next image</source>
         <translation>Následující obrázek</translation>
+    </message>
+    <message>
+        <source>Related content</source>
+        <translation>Související obsah</translation>
     </message>
 </context>
 <context>
@@ -1313,11 +1414,26 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>Add to wish list</source>
-        <translation>Na seznam</translation>
+        <translation>Na nákupní seznam</translation>
     </message>
     <message>
         <source>People who bought this also bought</source>
-        <translation>Kupující k tomuto produktu také koupili</translation>
+        <translation>Ostatní také zakoupili:</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/blog_post</name>
+    <message>
+        <source>Tags:</source>
+        <translation>Tagy:</translation>
+    </message>
+    <message>
+        <source>View comments</source>
+        <translation>Zobrazit komentáře</translation>
+    </message>
+    <message>
+        <source>Add comment</source>
+        <translation>Přidat komentář</translation>
     </message>
 </context>
 <context>
@@ -1331,7 +1447,7 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     <name>design/ezwebin/line/event_calendar</name>
     <message>
         <source>Next events</source>
-        <translation>Další události</translation>
+        <translation>Následující události</translation>
     </message>
 </context>
 <context>
@@ -1393,6 +1509,13 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
 </context>
 <context>
+    <name>design/ezwebin/line/silverlight</name>
+    <message>
+        <source>View</source>
+        <translation>Zobrazit</translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/line/windows_media</name>
     <message>
         <source>View movie</source>
@@ -1448,20 +1571,24 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
         <source>If %trashname is checked, removed items can be found in the trash.</source>
         <translation>Pokud je zaškrtnuto přesunuti do %trashname (e), odstraněné objekty můžete nalézt v koši.</translation>
     </message>
+    <message>
+        <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
+        <translation>Prvek má příliš mnoho podprvků a nemůže proto být odebrán. Kontaktujte administrátora nebo použijte skript ezsubtreeremove.php.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/notification/addingresult</name>
     <message>
         <source>Add to my notifications</source>
-        <translation>Upozornit na změny</translation>
+        <translation>Upozorňovat na změny</translation>
     </message>
     <message>
         <source>Notification for node &lt;%node_name&gt; already exists.</source>
-        <translation>Na změny uzlu &lt;%node_name&gt; jste již upozorňován(a).</translation>
+        <translation>Na změny &lt;%node_name&gt; jste již upozorňován(a).</translation>
     </message>
     <message>
         <source>Notification for node &lt;%node_name&gt; was added successfully.</source>
-        <translation>Na změny uzlu &lt;%node_name&gt; Vás budeme upozorňovat.</translation>
+        <translation>Na změny &lt;%node_name&gt; Vás budeme upozorňovat.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -1469,14 +1596,80 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
 </context>
 <context>
+    <name>design/ezwebin/notification/handler/ezgeneraldigest/settings/edit</name>
+    <message>
+        <source>Receive all messages combined in one digest</source>
+        <translation>Dostávat všechny zprávy kombinované v jednom souhrnném mailu</translation>
+    </message>
+    <message>
+        <source>Receive digests</source>
+        <translation>Dostávat souhrny</translation>
+    </message>
+    <message>
+        <source>Daily, at</source>
+        <translation>Denně, v</translation>
+    </message>
+    <message>
+        <source>Once per week, on </source>
+        <translation>Jednou týdně, v</translation>
+    </message>
+    <message>
+        <source>Once per month, on day number</source>
+        <translation>Jednou měsíčne, v den číslo</translation>
+    </message>
+    <message>
+        <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
+        <translation>Pokud zvolíte větší číslo, než má konkrétní měsíc dnů, bude zptáva zaslána poslední den v tom kterém měsíci.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/notification/handler/ezsubtree/settings/edit</name>
+    <message>
+        <source>My item notifications [%notification_count]</source>
+        <translation>Mé upozorňování na změny mailem [%notification_count]</translation>
+    </message>
+    <message>
+        <source>Invert selection.</source>
+        <translation>Obrátit výběr.</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Jméno</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sekce</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Neznámý</translation>
+    </message>
+    <message>
+        <source>You have not subscribed to receive notifications about any items.</source>
+        <translation>Nemáte nastaveno upozorňování pro žádný prvek.</translation>
+    </message>
+    <message>
+        <source>Remove selected</source>
+        <translation>Odstranit vybrané</translation>
+    </message>
+    <message>
+        <source>Add items</source>
+        <translation>Přidat položky</translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/notification/settings</name>
     <message>
         <source>Notification settings</source>
-        <translation>Nastavení upozorňování</translation>
+        <translation>Nastavení upozorňování emailem</translation>
     </message>
     <message>
-        <source>Store</source>
-        <translation>Uložit</translation>
+        <source>Apply changes</source>
+        <translation>Provést změny</translation>
     </message>
 </context>
 <context>
@@ -1485,75 +1678,441 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
         <source>Search</source>
         <translation>Hledat</translation>
     </message>
+    <message>
+        <source>Skip to main content</source>
+        <translation>Přeskočit na hlavní obsah</translation>
+    </message>
+    <message>
+        <source>Search text:</source>
+        <translation>Hledaný text:</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/parts/website_toolbar</name>
     <message>
-        <source>Create here</source>
-        <translation>Vytvoř zde</translation>
+        <source>Remove node RSS/ATOM feed</source>
+        <translation>Odebrat RSS/ATOM kanál uzlu</translation>
     </message>
     <message>
-        <source>Move</source>
-        <translation>Přesuň</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Odstraň</translation>
-    </message>
-    <message>
-        <source>Import</source>
-        <translation>Import</translation>
-    </message>
-    <message>
-        <source>Export</source>
-        <translation>Export</translation>
-    </message>
-    <message>
-        <source>Replace</source>
-        <translation>Nahraď</translation>
-    </message>
-    <message>
-        <source>About</source>
-        <translation>O aplikaci</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation>Dokumentace</translation>
-    </message>
-    <message>
-        <source>Edit: %node_name [%class_name]</source>
-        <translation>Úprava: %node_name [%class_name]</translation>
-    </message>
-    <message>
-        <source>Add locations</source>
-        <translation>Přidat umístění</translation>
+        <source>Create node RSS/ATOM feed</source>
+        <translation>Vytvořit RSS/ATOM kanál uzlu</translation>
     </message>
 </context>
 <context>
-    <name>design/ezwebin/settings/edit</name>
+    <name>design/ezwebin/rss/edit_export</name>
     <message>
-        <source>Node notification</source>
-        <translation>Upozorňování uzlu</translation>
+        <source>Edit &lt;%rss_export_name&gt; [RSS Export]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid input</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If RSS Export is Active then a valid Access URL is required.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Název</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Popis</translation>
+    </message>
+    <message>
+        <source>Use the description field to write a text explaining what users can expect from the RSS export.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Site URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browse</source>
+        <translation>Procházet</translation>
+    </message>
+    <message>
+        <source>Click this button to select an image for the RSS export. Note that images only work with RSS version 2.0</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click to remove image from RSS export.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>RSS version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this drop-down menu to select the RSS version to use for the export. You must select RSS 2.0 in order to export the image selected above.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of objects</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this drop-down to select the maximum number of objects included in the RSS feed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Active</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this checkbox to control if the RSS export is active or not. An inactive export will not be automatically updated.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Main node only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check if you want to only feed the object from the main node.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Access URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this field to set the URL where the RSS export should be available. Note that &quot;rss/feed/&quot; will be appended to the real URL. </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Source path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to select the source node for the RSS export source. Objects of the type selected in the drop-down below published as sub items of the selected node will be included in the RSS export.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subnodes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Activate this checkbox if objects from the subnodes of the source should also be fed.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
-        <source>Section</source>
-        <translation>Sekce</translation>
+        <source>Use this drop-down to select the type of object that triggers the export. Click the &quot;Set&quot; button to load the correct attribute types for the remaining fields.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Select</source>
-        <translation>Vybrat</translation>
+        <source>Set</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Remove</source>
-        <translation>Odstranit</translation>
+        <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>optional</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Skip</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation>Kategorie</translation>
+    </message>
+    <message>
+        <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove this source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click to remove this source from the RSS export.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click to add a new source to the RSS export.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Apply the changes and return to the RSS overview.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Storno</translation>
+    </message>
+    <message>
+        <source>Cancel the changes and return to the RSS overview.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/rss/edit_import</name>
+    <message>
+        <source>Edit &lt;%rss_import_name&gt; [RSS Import]</source>
+        <translation>Úprava &lt;%rss_import_name&gt; [RSS import]</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Jméno</translation>
+    </message>
+    <message>
+        <source>Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.</source>
+        <translation>Jméno RSS importu použité v administraci pro rozlišení jednotlivých importů.</translation>
+    </message>
+    <message>
+        <source>Source URL</source>
+        <translation>Zdrojové URL</translation>
+    </message>
+    <message>
+        <source>Use this field to enter the source URL of the RSS feed to import.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update</source>
+        <translation>Aktualizovat</translation>
+    </message>
+    <message>
+        <source>Click this button to proceed and analyze the import feed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>RSS Version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Destination path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browse</source>
+        <translation>Procházet</translation>
+    </message>
+    <message>
+        <source>Click this button to select the destination node where objects created by the import are located.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Imported objects will be owned by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to select the user who should own the objects created by the import.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Use this drop-down to select the type of object the import should create. Click the &quot;Set&quot; button to load the attribute types for the remaining fields.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this drop-down menu to select the attribute that should bet set as information from the RSS stream.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Active</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this checkbox to control if the RSS feed is active or not. An inactive feed will not be automatically updated.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Apply the changes and return to the RSS overview.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel the changes and return to the RSS overview.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/rss/list</name>
+    <message>
+        <source>RSS exports [%exports_count]</source>
+        <translation>RSS exporty [%exports_count]</translation>
+    </message>
+    <message>
+        <source>Invert selection</source>
+        <translation>Obrátit výběr</translation>
+    </message>
+    <message>
+        <source>Invert selection.</source>
+        <translation>Obrátit výběr.</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Jméno</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Verze</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Stav</translation>
+    </message>
+    <message>
+        <source>Modifier</source>
+        <translation>Změnil</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Změněno</translation>
+    </message>
+    <message>
+        <source>Select RSS export for removal.</source>
+        <translation>Zvolte RSS export k odebrání.</translation>
+    </message>
+    <message>
+        <source>Active</source>
+        <translation>Aktivní</translation>
+    </message>
+    <message>
+        <source>Inactive</source>
+        <translation>Neaktivní</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Upravit</translation>
+    </message>
+    <message>
+        <source>Edit the &lt;%name&gt; RSS export.</source>
+        <translation>Upravit RSS export &lt;%name&gt;.</translation>
+    </message>
+    <message>
+        <source>The RSS export list is empty.</source>
+        <translation>Seznam exportů RSS je prázdný.</translation>
+    </message>
+    <message>
+        <source>Remove selected</source>
+        <translation>Odstranit vybrané</translation>
+    </message>
+    <message>
+        <source>Remove selected RSS exports.</source>
+        <translation>Odebrat označené RSS exporty.</translation>
+    </message>
+    <message>
+        <source>New export</source>
+        <translation>Nový export</translation>
+    </message>
+    <message>
+        <source>Create a new RSS export.</source>
+        <translation>Vytvořit nový RSS export.</translation>
+    </message>
+    <message>
+        <source>RSS imports [%imports_count]</source>
+        <translation>Importy RSS [%imports_count]</translation>
+    </message>
+    <message>
+        <source>Select RSS import for removal.</source>
+        <translation>Zvolte RSS import k odstranění.</translation>
+    </message>
+    <message>
+        <source>Edit the &lt;%name&gt; RSS import.</source>
+        <translation>Upravit RSS import &lt;%name&gt;.</translation>
+    </message>
+    <message>
+        <source>The RSS import list is empty.</source>
+        <translation>Seznam RSS importů je prázdný.</translation>
+    </message>
+    <message>
+        <source>Remove selected RSS imports.</source>
+        <translation>Odstranit zvolené RSS importy.</translation>
+    </message>
+    <message>
+        <source>New import</source>
+        <translation>Nový import</translation>
+    </message>
+    <message>
+        <source>Create a new RSS import.</source>
+        <translation>Vytvořit nový RSS import.</translation>
     </message>
 </context>
 <context>
@@ -1628,7 +2187,7 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>Order total</source>
-        <translation>Objecnávka celkem</translation>
+        <translation>Objednávka celkem</translation>
     </message>
     <message>
         <source>Continue shopping</source>
@@ -1675,11 +2234,11 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>Account information</source>
-        <translation></translation>
+        <translation>Informace o účtu</translation>
     </message>
     <message>
         <source>Confirm order</source>
-        <translation></translation>
+        <translation>Potvrzení objednávky</translation>
     </message>
     <message>
         <source>Product items</source>
@@ -1715,7 +2274,7 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>Order total</source>
-        <translation>Objecnávka celkem</translation>
+        <translation>Objednávka celkem</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -1731,6 +2290,18 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>Total price inc. VAT</source>
+        <translation>Celkem s DPH</translation>
+    </message>
+    <message>
+        <source>Summary</source>
+        <translation>Souhrn</translation>
+    </message>
+    <message>
+        <source>Total ex. VAT</source>
+        <translation>Celkem bez DPH</translation>
+    </message>
+    <message>
+        <source>Total inc. VAT</source>
         <translation>Celkem s DPH</translation>
     </message>
 </context>
@@ -1860,11 +2431,11 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>Count</source>
-        <translation>Poček</translation>
+        <translation>Počet</translation>
     </message>
     <message>
         <source>VAT</source>
-        <translation></translation>
+        <translation>DPH</translation>
     </message>
     <message>
         <source>Price inc. VAT</source>
@@ -1901,6 +2472,14 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     <message>
         <source>Total price inc. VAT</source>
         <translation>Celkem s DPH</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Order status</source>
+        <translation>Stav objednávky</translation>
     </message>
 </context>
 <context>
@@ -1971,7 +2550,7 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>Input did not validate. All fields marked with * must be filled in.</source>
-        <translation>Formulář nebyl vyplněn správne. Všechna políčka označená * musejí být vyplněna.</translation>
+        <translation>Formulář nebyl vyplněn správně. Všechna políčka označená * musejí být vyplněna.</translation>
     </message>
     <message>
         <source>Email</source>
@@ -2027,18 +2606,6 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
         <translation>Aktivovat účet</translation>
     </message>
     <message>
-        <source>Your account is now activated.</source>
-        <translation>Váš účet je nyní aktivován.</translation>
-    </message>
-    <message>
-        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>Bohužel zadaný klíč není platný, uživatelský účet nebyl aktivován (aktivace účtu musí proběhnout záhy po registraci-obvykle do 24 hodin).</translation>
-    </message>
-    <message>
-        <source>Your account is already active.</source>
-        <translation>Váš uživatelský účet je již aktivní.</translation>
-    </message>
-    <message>
         <source>OK</source>
         <translation>OK</translation>
     </message>
@@ -2067,11 +2634,11 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>My notification settings</source>
-        <translation>Nastavení upozorňování</translation>
+        <translation>Upozorňnování na změny mailem - nastavení</translation>
     </message>
     <message>
         <source>My wish list</source>
-        <translation>Můj seznam</translation>
+        <translation>Můj nákupní seznam</translation>
     </message>
     <message>
         <source>Edit profile</source>
@@ -2085,16 +2652,20 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
         <source>Email</source>
         <translation>Email</translation>
     </message>
+    <message>
+        <source>My pending items</source>
+        <translation>Položky ke schválení</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/forgotpassword</name>
     <message>
         <source>Password was successfully generated and sent to: %1</source>
-        <translation>Nové heslo bylo úspěšně vytvořeno a posláno na adresu %1</translation>
+        <translation>Nové heslo bylo úspěšně vytvořeno a zasláno na adresu %1</translation>
     </message>
     <message>
         <source>The key is invalid or has been used. </source>
-        <translation>Tento odkaz (klíč) není platný, nebo už byl jednou použitý.</translation>
+        <translation>Odkaz (klíč) není platný, nebo už byl použitý.</translation>
     </message>
     <message>
         <source>Have you forgotten your password?</source>
@@ -2110,11 +2681,11 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
     <message>
         <source>There is no registered user with that email address.</source>
-        <translation>Uživatel s takovouto emailovou adresou neexistuje.</translation>
+        <translation>Uživatel s touto emailovou adresou neexistuje.</translation>
     </message>
     <message>
         <source>If you have forgotten your password, enter your email address and we will create a new password and send it to you.</source>
-        <translation>Pokud jste zapomněli heslo, zadejte vaši emailovou adresu a systém vám vygeneruje nové heslo a zašle jej na váš email.</translation>
+        <translation>Pokud jste zapomněli heslo, zadejte vaši emailovou adresu. Systém vám vygeneruje nové heslo a zašle jej na váš email.</translation>
     </message>
     <message>
         <source>Email</source>
@@ -2213,6 +2784,10 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
         <source>Cancel</source>
         <translation>Storno</translation>
     </message>
+    <message>
+        <source>The new password must be at least %1 characters long, please retype your new password.</source>
+        <translation>Nové heslo musí být dlouhé alespoň %1 znaků. Prosím zadejte nové heslo znovu.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/register</name>
@@ -2268,6 +2843,25 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
 </context>
 <context>
+    <name>design/ezwebin/view/ezmedia</name>
+    <message>
+        <source>No %link_startFlash player%link_end avaliable!</source>
+        <translation>%link_startPřehrávač Flash%link_end na Vašem zařízení není k dispozici!</translation>
+    </message>
+    <message>
+        <source>Your browser does not support html5 video.</source>
+        <translation>Váš prohlížeč nepodporuje html5 video.</translation>
+    </message>
+    <message>
+        <source>Your browser does not support html5 audio.</source>
+        <translation>Váš prohlížeč nepodporuje html5 audio.</translation>
+    </message>
+    <message>
+        <source>No media file is available.</source>
+        <translation>Není k dispozici žádný mediální soubor.</translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/view/ezprice</name>
     <message>
         <source>Price</source>
@@ -2290,106 +2884,60 @@ Můžete buď pokračovat v úpravách některého Vašeho konceptu tohoto objek
     </message>
 </context>
 <context>
+    <name>design/ezwebin/websitetoolbar/objectstates</name>
+    <message>
+        <source>Object states for object</source>
+        <translation>Stavy položky</translation>
+    </message>
+    <message>
+        <source>Content object state group</source>
+        <translation>Skupina stavů objektů</translation>
+    </message>
+    <message>
+        <source>Available states</source>
+        <translation>Dostupné stavy</translation>
+    </message>
+    <message>
+        <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
+        <translation>Není nastaven žádný stav objektů. Můžete je nakonfigurovat %urlstart zde %urlend.</translation>
+    </message>
+    <message>
+        <source>Set states</source>
+        <translation>Nastavit stavy</translation>
+    </message>
+    <message>
+        <source>Apply states from the list above.</source>
+        <translation>Nastavit stavy z výše uvedeného seznamu.</translation>
+    </message>
+    <message>
+        <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
+        <translation>Nemáte oprávnění k přiřazení žádného stavu k tomuto objektu.</translation>
+    </message>
+</context>
+<context>
     <name>design/standard/content/datatype</name>
     <message>
-        <source>No media file is available.</source>
-        <translation>Není k dispozici žádný mediální soubor.</translation>
+        <source>Second</source>
+        <translation>Sekunda</translation>
     </message>
 </context>
 <context>
-    <name>extension/ezodf</name>
+    <name>design/standard/user</name>
     <message>
-        <source>OpenOffice.org export</source>
-        <translation>OpenOffice.org export</translation>
+        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
+        <translation>Vaše emailová adresa byla potvrzena. Nyní musí Vaši registraci schválit administrátor. Po schválení se budete moci přihlásit.</translation>
     </message>
     <message>
-        <source>Export eZ publish content to OpenOffice.org</source>
-        <translation>Export obsahu z eZ publish do OpenOffice.org</translation>
+        <source>Your account is now activated.</source>
+        <translation>Váš účet je nyní aktivován.</translation>
     </message>
     <message>
-        <source>Error</source>
-        <translation>Chyba</translation>
+        <source>Your account is already active.</source>
+        <translation>Váš uživatelský účet je již aktivní.</translation>
     </message>
     <message>
-        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
-        <translation>Zde můžete exportovat jakýkoliv objekt z eZ publish do formátu OpenOffice.org Writer.</translation>
-    </message>
-    <message>
-        <source>Export Object</source>
-        <translation>Exportovat objekt</translation>
-    </message>
-    <message>
-        <source>Document is now imported</source>
-        <translation>Dokument je importován</translation>
-    </message>
-    <message>
-        <source>OpenOffice.org import</source>
-        <translation>Import z OpenOffice.org</translation>
-    </message>
-    <message>
-        <source>The object was imported as: %class_name</source>
-        <translation>Objekt byl importován jako: %class_name</translation>
-    </message>
-    <message>
-        <source>Document imported as</source>
-        <translation>Dokument importován jako </translation>
-    </message>
-    <message>
-        <source>The images are placed in the media and can be re-used.</source>
-        <translation>Obrázky jsou umístěny v médiích a mohou být použity i jinde.</translation>
-    </message>
-    <message>
-        <source>Import another document</source>
-        <translation>Importovat jiný další dokument</translation>
-    </message>
-    <message>
-        <source>Upload file</source>
-        <translation>Nahrát soubor</translation>
-    </message>
-    <message>
-        <source>Import OpenOffice.org document</source>
-        <translation>Importovat dokument OpenOffice.org</translation>
-    </message>
-    <message>
-        <source>Replace document</source>
-        <translation>Nahradit dokument</translation>
-    </message>
-    <message>
-        <source>Import to</source>
-        <translation>Importovat do</translation>
-    </message>
-    <message>
-        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
-asked where to place the document and eZ publish does the rest. The document is converted into
-the appropriate class during the import, you get a notice about this after the import is done.
-Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation>Přímo na této stránce můžete provést import dokumentů z aplikace OpenOffice.org Writer do eZ Publish. Pouze 
-vyberete, kde má být nový objekt umístěn a eZ Publish zařídí zbytek. Dokument bude konvertován do
-odpovídající třídy obsahu během importu - na konci importu budete na toto upozorněni.
-Obrázky budou umístěny do knihovny médií, takže je můžete použít i v jiných článcích.</translation>
-    </message>
-</context>
-<context>
-    <name>extension/ezodf/browse</name>
-    <message>
-        <source>Choose document placement</source>
-        <translation>Vyberte umístění dokumentu</translation>
-    </message>
-    <message>
-        <source>Please choose the placement for the OpenOffice.org object.
-
-    Select the placements and click the %buttonname button.
-    Using the recent and bookmark items for quick placement is also possible.
-    Click on placement names to change the browse listing.</source>
-        <translation>Prosím vyberte umístění pro objekt z OpenOffice.org.
-
-    Zvolte umístění a klikněte na tlačícko %buttonname.
-    Můžete také použít nedávno navštívené prvky nebo vaše oblíbené prvky pro rychlý výběr umístění.
-    Pro zobrazení podprvků klikněte na název nadřazených prvků.</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>Vybrat</translation>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation>Bohužel zadaný klíč není platný, uživatelský účet nebyl aktivován (aktivace účtu musí proběhnout záhy po registraci-obvykle do 24 hodin).</translation>
     </message>
 </context>
 </TS>
