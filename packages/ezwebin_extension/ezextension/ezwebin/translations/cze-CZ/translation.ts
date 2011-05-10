@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="cs_CZ">
+<!DOCTYPE TS><TS>
 <context>
     <name>design/admin/content/datatype</name>
     <message>
@@ -1714,7 +1712,7 @@ Obrázky budou umístěny do knihovny médií, takže je můžete použít i v j
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Jméno</translation>
     </message>
     <message>
         <source>Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.</source>
@@ -1778,7 +1776,7 @@ Obrázky budou umístěny do knihovny médií, takže je můžete použít i v j
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Aktivní</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS export is active or not. An inactive export will not be automatically updated.</source>
@@ -1989,7 +1987,7 @@ Obrázky budou umístěny do knihovny médií, takže je můžete použít i v j
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Aktivní</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS feed is active or not. An inactive feed will not be automatically updated.</source>
