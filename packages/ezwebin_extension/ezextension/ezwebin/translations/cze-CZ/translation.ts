@@ -1,4 +1,6 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="cs_CZ">
 <context>
     <name>design/admin/content/datatype</name>
     <message>
@@ -1700,11 +1702,11 @@ Obrázky budou umístěny do knihovny médií, takže je můžete použít i v j
     <name>design/ezwebin/rss/edit_export</name>
     <message>
         <source>Edit &lt;%rss_export_name&gt; [RSS Export]</source>
-        <translation type="unfinished"></translation>
+        <translation>Úprava &lt;%rss_export_name&gt; [RSS Export]</translation>
     </message>
     <message>
         <source>Invalid input</source>
-        <translation type="unfinished"></translation>
+        <translation>Neplatný vstup</translation>
     </message>
     <message>
         <source>If RSS Export is Active then a valid Access URL is required.</source>
@@ -1712,7 +1714,7 @@ Obrázky budou umístěny do knihovny médií, takže je můžete použít i v j
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Jméno</translation>
+        <translation>Jméno</translation>
     </message>
     <message>
         <source>Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.</source>
@@ -1728,7 +1730,7 @@ Obrázky budou umístěny do knihovny médií, takže je můžete použít i v j
     </message>
     <message>
         <source>Site URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL stránek</translation>
     </message>
     <message>
         <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
@@ -1740,7 +1742,7 @@ Obrázky budou umístěny do knihovny médií, takže je můžete použít i v j
     </message>
     <message>
         <source>Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrázek</translation>
     </message>
     <message>
         <source>Browse</source>
@@ -1752,7 +1754,7 @@ Obrázky budou umístěny do knihovny médií, takže je můžete použít i v j
     </message>
     <message>
         <source>Remove image</source>
-        <translation type="unfinished"></translation>
+        <translation>Odstranit obrázek</translation>
     </message>
     <message>
         <source>Click to remove image from RSS export.</source>
@@ -1776,7 +1778,7 @@ Obrázky budou umístěny do knihovny médií, takže je můžete použít i v j
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished">Aktivní</translation>
+        <translation>Aktivní</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS export is active or not. An inactive export will not be automatically updated.</source>
@@ -1927,11 +1929,11 @@ Obrázky budou umístěny do knihovny médií, takže je můžete použít i v j
     </message>
     <message>
         <source>RSS Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Verze RSS</translation>
     </message>
     <message>
         <source>Destination path</source>
-        <translation type="unfinished"></translation>
+        <translation>Cílová cesta</translation>
     </message>
     <message>
         <source>Browse</source>
@@ -1947,7 +1949,7 @@ Obrázky budou umístěny do knihovny médií, takže je můžete použít i v j
     </message>
     <message>
         <source>Change user</source>
-        <translation type="unfinished"></translation>
+        <translation>Změnit uživatele</translation>
     </message>
     <message>
         <source>Click this button to select the user who should own the objects created by the import.</source>
@@ -1963,7 +1965,7 @@ Obrázky budou umístěny do knihovny médií, takže je můžete použít i v j
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavit</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
@@ -1971,7 +1973,7 @@ Obrázky budou umístěny do knihovny médií, takže je můžete použít i v j
     </message>
     <message>
         <source>Class attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Atributy třídy</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the attribute that should bet set as information from the RSS stream.</source>
@@ -1979,19 +1981,19 @@ Obrázky budou umístěny do knihovny médií, takže je můžete použít i v j
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorovat</translation>
     </message>
     <message>
         <source>Object attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Atributy objektu</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished">Aktivní</translation>
+        <translation>Aktivní</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS feed is active or not. An inactive feed will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvolte zda m8 být RSS kanál aktivní. Neaktivní kanál nebude automaticky aktualizován.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -1999,15 +2001,15 @@ Obrázky budou umístěny do knihovny médií, takže je můžete použít i v j
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít změny a zpět na přehled RSS.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Storno</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zrušit změny a vrátit se zpět na přehled RSS.</translation>
     </message>
 </context>
 <context>
