@@ -1,23 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<package version="1.7-0beta3"
-         development="false"
-         install_type="install">
+<?xml version="1.0" encoding="utf-8"?>
+<package version="5.0-0" development="false" install_type="install">
   <name>ezwebin_democontent</name>
-  <summary>Home, News and Events, Products, Partner, Community, Knowledge Base, Company</summary>
-  <description>This package contains the following nodes :
-Home - subtree
-News and Events - subtree
-Products - subtree
-Partner - subtree
-Community - subtree
-Knowledge Base - subtree
-Company - subtree
-</description>
+  <summary>Products, Solutions, Training, Support, Getting started, eZ Publish Enterprise, Partners, Community,
+    Company
+  </summary>
+  <description>This package contains the following nodes :&#13;
+    Products - subtree&#13;
+    Solutions - subtree&#13;
+    Training - subtree&#13;
+    Support - subtree&#13;
+    Getting started - subtree&#13;
+    eZ Publish Enterprise - subtree&#13;
+    Partners - subtree&#13;
+    Community - subtree&#13;
+    Company - subtree&#13;
+  </description>
   <vendor>eZ systems</vendor>
-  <type value="contentobject" />
+  <type value="contentobject"/>
   <ezpublish>
-    <version>4.4.0beta3</version>
-    <named-version>4.4</named-version>
+    <version>5.0.0-alpha1</version>
+    <named-version>5.0</named-version>
   </ezpublish>
   <maintainers>
     <maintainer>
@@ -27,131 +29,260 @@ Company - subtree
     </maintainer>
   </maintainers>
   <packaging>
-    <timestamp>1163689610</timestamp>
+    <timestamp>1300177857</timestamp>
     <host>packages.ez.no</host>
   </packaging>
   <documents>
-    <document mime-type="text/plain"
-              name="LICENCE" />
+    <document mime-type="text/plain" name="LICENCE"/>
   </documents>
   <changelog>
-    <entry timestamp="1163689610"
-           person="Administrator User"
-           email="nospam@ez.no"
-           release="1">
+    <entry timestamp="1300177857" person="Administrator User" email="nospam@ez.no" release="1">
       <change>Creation of package.</change>
     </entry>
   </changelog>
   <simple-files>
-    <simple-file key="564a9852c167d1ec95d820df7eb8a44f"
-                 original-path="var/storage/images/products/software/os_type_i/1139-1-eng-GB/os_type_i.jpg"
-                 package-path="simplefiles/99c9ae32.jpg" />
-    <simple-file key="e394f4438f2937e0a712cf48fe59febb"
-                 original-path="var/storage/images/products/boxes/cd_dvd_box_i/1123-1-eng-GB/cd_dvd_box_i.jpg"
-                 package-path="simplefiles/d6088fb8.jpg" />
-    <simple-file key="3e64c1ff7bcabffce3fee7505a9ffe05"
-                 original-path="var/storage/images/products/boxes/cd_dvd_box_ii/1131-5-eng-GB/cd_dvd_box_ii.jpg"
-                 package-path="simplefiles/91b3539c.jpg" />
-    <simple-file key="bfd3b9bbc47b130f01e6176f0a75c88f"
-                 original-path="var/storage/images/products/boxes/cd_dvd_box_iii/1147-12-eng-GB/cd_dvd_box_iii.jpg"
-                 package-path="simplefiles/feb6c0d6.jpg" />
-    <simple-file key="6f1ca5f47040a878cae623ce3ab2a3f8"
-                 original-path="var/storage/images/partners/partner_news/pellentesque_quam_mauris/1983-1-eng-GB/pellentesque_quam_mauris.jpg"
-                 package-path="simplefiles/c9b86255.jpg" />
-    <simple-file key="c953c6d18ab0e7386f1e9b33132c699b"
-                 original-path="var/storage/images/partners/partner_news/penatibus_et_magnis_dis/2027-1-eng-GB/penatibus_et_magnis_dis.jpg"
-                 package-path="simplefiles/f60ab7d0.jpg" />
-    <simple-file key="999b778d49ac1869797f1a6c7e4a37b3"
-                 original-path="var/storage/images/partners/news/curabitur_hendrerit_dignissim/1994-1-eng-GB/curabitur_hendrerit_dignissim.jpg"
-                 package-path="simplefiles/cf429c58.jpg" />
-    <simple-file key="f3e553cc9a2547c8589e63eab3de129c"
-                 original-path="var/storage/images/partners/news/proin_condimentum_risus/2005-1-eng-GB/proin_condimentum_risus.jpg"
-                 package-path="simplefiles/193dd1e3.jpg" />
-    <simple-file key="1b47e63abb417dcdf7f1f3ae652e374a"
-                 original-path="var/storage/images/partners/news/morbi_tristique_senectus/2016-1-eng-GB/morbi_tristique_senectus.jpg"
-                 package-path="simplefiles/60f6ca07.jpg" />
-    <simple-file key="94feb3e7dfb8cdc6ae3cc3968ef4d99f"
-                 original-path="var/storage/images/partners/partners/neque_orci_malesuada_felis/2038-1-eng-GB/neque_orci_malesuada_felis.jpg"
-                 package-path="simplefiles/2eb3cd21.jpg" />
-    <simple-file key="8eec2ae765a58f9b9bb7e5bc43039a4f"
-                 original-path="var/storage/images/solutions/web_publishing/fusce_sagittis_sagittis/1428-1-eng-GB/fusce_sagittis_sagittis.jpg"
-                 package-path="simplefiles/f24d6bcd.jpg" />
-    <simple-file key="964918b69ab0954df8e9d6f7adf66321"
-                 original-path="var/storage/images/solutions/web_publishing/etiam_posuere_sodales_arcu/1439-1-eng-GB/etiam_posuere_sodales_arcu.jpg"
-                 package-path="simplefiles/281497ce.jpg" />
-    <simple-file key="4896af0dbfe88c4281c2b404904917ea"
-                 original-path="var/storage/images/solutions/web_publishing/in_hac_habitasse_platea/1461-3-eng-GB/in_hac_habitasse_platea.jpg"
-                 package-path="simplefiles/255df1c9.jpg" />
-    <simple-file key="35c37a7ba41e46b755006a924bb5b526"
-                 original-path="var/storage/images/training/professional_workshops/etiam_sodales_mauris/1843-1-eng-GB/etiam_sodales_mauris.jpg"
-                 package-path="simplefiles/ec2336c5.jpg" />
-    <simple-file key="2d60a969f5caf8a6871c93a77a81347e"
-                 original-path="var/storage/images/training/professional_workshops/class_aptent_taciti/1854-1-eng-GB/class_aptent_taciti.jpg"
-                 package-path="simplefiles/22546794.jpg" />
-    <simple-file key="b7d201c58fadf31edd9f0ca4788517ce"
-                 original-path="var/storage/images/training/professional_workshops/duis_auctor_vehicula_erat/1876-2-eng-GB/duis_auctor_vehicula_erat.jpg"
-                 package-path="simplefiles/599395bf.jpg" />
-    <simple-file key="5b47bda697fb9d098bb81e99bf222fa8"
-                 original-path="var/storage/images/support/books/aliquam_pulvinar_suscipit_tellus/1972-1-eng-GB/aliquam_pulvinar_suscipit_tellus.jpg"
-                 package-path="simplefiles/e6266052.jpg" />
-    <simple-file key="82141e57eb139ddac809a6b1e573605e"
-                 original-path="var/storage/images/company/contact/morbi_neque/1646-1-eng-GB/morbi_neque.jpg"
-                 package-path="simplefiles/d1ce478e.jpg" />
-    <simple-file key="5edd572bd980f684b2e3aa61fc85fceb"
-                 original-path="var/storage/images/company/company_banner/1904-3-eng-GB/company_banner.jpg"
-                 package-path="simplefiles/709770af.jpg" />
-    <simple-file key="5e6fa5a245cee307ea4173573d71170a" original-path="var/storage/images/company/news/separate-content-design-in-ez-publish/separation_of_content_and_design/1230-1-eng-GB/separation_of_content_and_design.jpg" package-path="simplefiles/4caff6ac.jpg"/>
-    <simple-file key="75b7a914c933f88b8c177d0a960d7c96" original-path="var/storage/images/company/news/separate-content-design-in-ez-publish/1142-3-eng-GB/Separate-content-design-in-eZ-Publish.jpg" package-path="simplefiles/f6278d0f.jpg"/>
-    <simple-file key="48bb9c5e332ee04f1fbb2ff36d34916a" original-path="var/storage/images/company/news/how-to-develop-with-ez-publish/datatypes_attributes_content_class_and_objects_large/1254-1-eng-GB/datatypes_attributes_content_class_and_objects_large.jpg" package-path="simplefiles/17180389.jpg"/>
-    <simple-file key="efa015b1e5fcab65c113ca733612337a" original-path="var/storage/images/company/news/how-to-develop-with-ez-publish/site_style_large/1258-1-eng-GB/site_style_large.png" package-path="simplefiles/e7f4a5ee.png"/>
-    <simple-file key="20196faed28c0f34c21c1d57511b9cd2" original-path="var/storage/images/company/news/how-to-develop-with-ez-publish/1246-2-eng-GB/How-to-develop-with-eZ-Publish.png" package-path="simplefiles/dad96df4.png"/>
-    <simple-file key="0a74131248f2c20756e5ce44e16d0c21" original-path="var/storage/images/company/news/how-to-manage-ez-publish/1194-1-eng-GB/How-to-manage-eZ-Publish.jpg" package-path="simplefiles/bb8e1919.jpg"/>
-    <simple-file key="5bb50a0c29ae62fded4a1dda7d12047d" original-path="var/storage/images/company/news/how-to-manage-ez-publish/usermanagement_large/1202-1-eng-GB/usermanagement_large.jpg" package-path="simplefiles/0a92d82d.jpg"/>
-    <simple-file key="cade8da3abdfe9963a44e1f7f23f1cf6" original-path="var/storage/images/company/news/how-to-manage-ez-publish/workflow_large/1206-1-eng-GB/workflow_large.jpg" package-path="simplefiles/6b92d0e1.jpg"/>
-    <simple-file key="1f383098b7247d1ebef001071a6e13df" original-path="var/storage/images/company/news/how-to-manage-ez-publish/versioning_large/1210-1-eng-GB/versioning_large.jpg" package-path="simplefiles/7976c96e.jpg"/>
-    <simple-file key="6c4dc92b04bc8afbd205dbd7d4dc933e" original-path="var/storage/images/company/news/how-to-manage-ez-publish/datatypes_attributes_content_class_and_objects_large/1214-1-eng-GB/datatypes_attributes_content_class_and_objects_large.png" package-path="simplefiles/e5aae376.png"/>
-    <simple-file key="afd85b88f502c2378d025c0d49153b2b" original-path="var/storage/images/company/news/how-to-manage-ez-publish/multiple_location_large/1218-1-eng-GB/multiple_location_large.jpg" package-path="simplefiles/737ced2d.jpg"/>
-    <simple-file key="3d6aa9b7fdf96df41f35873b66fe117e" original-path="var/storage/images/company/news/how-to-manage-ez-publish/multisite_deployment_large/1222-1-eng-GB/multisite_deployment_large.jpg" package-path="simplefiles/8888be5e.jpg"/>
-    <simple-file key="c5b6d5c3ccb3114d8c8f98e684670948" original-path="var/storage/images/company/news/how-to-manage-ez-publish/seo_large/1226-1-eng-GB/seo_large.jpg" package-path="simplefiles/c70f6571.jpg"/>
-    <simple-file key="a883b99500e648d6cdc887b94751de6e" original-path="var/storage/images/company/news/how-to-manage-ez-publish/admin_site_large/1238-1-eng-GB/admin_site_large.jpg" package-path="simplefiles/fd0b0e70.jpg"/>
-    <simple-file key="0ca7c9f4b5a8ede5bd4651ceab8a56db" original-path="var/storage/images/company/news/how-to-use-ez-publish/1154-1-eng-GB/How-to-use-eZ-Publish.jpg" package-path="simplefiles/38da926f.jpg"/>
-    <simple-file key="f7446f3f2d242816309f88305f27941a" original-path="var/storage/images/company/news/how-to-use-ez-publish/openoffice_import_large/1162-1-eng-GB/openoffice_import_large.jpg" package-path="simplefiles/c6bfbab1.jpg"/>
-    <simple-file key="6284948f624235b2c039932ffdef0ed4" original-path="var/storage/images/company/news/how-to-use-ez-publish/translation_large/1166-1-eng-GB/translation_large.jpg" package-path="simplefiles/be65e663.jpg"/>
-    <simple-file key="2b445be70c65528a899a409202381206" original-path="var/storage/images/company/news/how-to-use-ez-publish/multiupload_large/1170-1-eng-GB/multiupload_large.jpg" package-path="simplefiles/1e95ab58.jpg"/>
-    <simple-file key="5dfaeda190ed707bec3c96d889142918" original-path="var/storage/images/company/news/how-to-use-ez-publish/gallery_large/1174-1-eng-GB/gallery_large.jpg" package-path="simplefiles/f7425e03.jpg"/>
-    <simple-file key="ba06665123876e00b9c262a9a4f1cc3c" original-path="var/storage/images/company/news/how-to-use-ez-publish/search_result_large/1186-1-eng-GB/search_result_large.jpg" package-path="simplefiles/53f9818c.jpg"/>
-    <simple-file key="00070e011835c04d473bd03bbcecaa8f" original-path="var/storage/images/company/news/how-to-use-ez-publish/ez_tool_bar_large/1234-1-eng-GB/ez_tool_bar_large.jpg" package-path="simplefiles/c36d0aa5.jpg"/>
-    <simple-file key="fc81f187da1ac466209e0e23b8d6d09c" original-path="var/storage/images/media/images/quicktime_large/1178-1-eng-GB/quicktime_large.jpg" package-path="simplefiles/839e42d6.jpg"/>
-    <simple-file key="31b448d1f44f0ef04c55efa67a9b71d9" original-path="var/storage/images/media/images/web_2_0_large/1182-1-eng-GB/web_2_0_large.jpg" package-path="simplefiles/febd930d.jpg"/>
-    <simple-file key="784eb7c6fc4f18e304b15fdbf30ff9b3" original-path="var/storage/images/community/pictures/ez-conference-2009/719-2-eng-GB/eZ-Conference-2009.jpg" package-path="simplefiles/d2bf73b7.jpg"/>
-    <simple-file key="585c8b1df2e3515f191c6546a3bcba59" original-path="var/storage/images/community/pictures/ez-awards/723-2-eng-GB/eZ-Awards.jpg" package-path="simplefiles/de459208.jpg"/>
-    <simple-file key="194f2a35e1981f90ad5b2dfab0d16ef6" original-path="var/storage/images/community/pictures/digital-media-award/727-2-eng-GB/Digital-Media-Award.jpg" package-path="simplefiles/79c1cace.jpg"/>
-    <simple-file key="35f621eb4988eb0438ab8fb7ac136b08" original-path="var/storage/images/community/pictures/champs-elysees/731-2-eng-GB/Champs-Elysees.jpg" package-path="simplefiles/6c821f81.jpg"/>
-    <simple-file key="bfcabd2e4739e85cc485e60eaa1a15de" original-path="var/storage/images/community/pictures/developer-session/1110-1-eng-GB/Developer-session.jpg" package-path="simplefiles/de81bbce.jpg"/>
-    <simple-file key="53569d8cd87245c45da568420285b212" original-path="var/storage/images/community/pictures/community-talk/1114-1-eng-GB/Community-talk.jpg" package-path="simplefiles/ecfae435.jpg"/>
-    <simple-file key="6745ca5538561e095cc0d085cc859d50" original-path="var/storage/images/community/pictures/partner-of-the-year-2009/1118-1-eng-GB/Partner-of-the-year-2009.jpg" package-path="simplefiles/cf770d0f.jpg"/>
-    <simple-file key="9c4e43191addfe73fd9b7fd7b0e54c9d" original-path="var/storage/images/community/pictures/ez-awards2/1122-1-eng-GB/eZ-Awards.jpg" package-path="simplefiles/28bbcd90.jpg"/>
+    <simple-file key="4fd9c9425dac03066ad093974b350c78"
+           original-path="var/ezwebin_site/storage/images/products/software/os-type-i/272-1-eng-GB/OS-Type-I.jpg"
+           package-path="simplefiles/6cd39799.jpg"/>
+    <simple-file key="d9415991c6d7a867c7dfa23defe7eb9a"
+           original-path="var/ezwebin_site/storage/images/products/boxes/cd-dvd-box-i/288-1-eng-GB/CD-DVD-Box-I.jpg"
+           package-path="simplefiles/3e891623.jpg"/>
+    <simple-file key="39dcd19f70eb65c0fa7a457029f1eb40"
+           original-path="var/ezwebin_site/storage/images/products/boxes/cd-dvd-box-ii/297-1-eng-GB/CD-DVD-Box-II.jpg"
+           package-path="simplefiles/1757ff38.jpg"/>
+    <simple-file key="064825fcc6f66aa540277d0e23de28f4"
+           original-path="var/ezwebin_site/storage/images/products/boxes/cd-dvd-box-iii/306-1-eng-GB/CD-DVD-Box-III.jpg"
+           package-path="simplefiles/03c61cb4.jpg"/>
+    <simple-file key="928ec9b7a5bf821344d36a911f63355a"
+           original-path="var/ezwebin_site/storage/images/solutions/web-publishing/fusce-sagittis-sagittis/337-1-eng-GB/Fusce-sagittis-sagittis.jpg"
+           package-path="simplefiles/2239cc9d.jpg"/>
+    <simple-file key="ffec3d68803bd84d088283c3c8bae4bc"
+           original-path="var/ezwebin_site/storage/images/solutions/web-publishing/etiam-posuere-sodales-arcu/349-1-eng-GB/Etiam-posuere-sodales-arcu.jpg"
+           package-path="simplefiles/967d1326.jpg"/>
+    <simple-file key="9d27a31a6698a0a237891d8e1ddf5a0c"
+           original-path="var/ezwebin_site/storage/images/solutions/web-publishing/in-hac-habitasse-platea/361-1-eng-GB/In-hac-habitasse-platea.jpg"
+           package-path="simplefiles/2230025d.jpg"/>
+    <simple-file key="9cef344e190a40b8a7eedec2069acefd"
+           original-path="var/ezwebin_site/storage/images/training/professional-workshops/etiam-sodales-mauris/437-1-eng-GB/Etiam-sodales-mauris.jpg"
+           package-path="simplefiles/f43e037f.jpg"/>
+    <simple-file key="8a0886af71b0527467d5cbb9bc8ae5af"
+           original-path="var/ezwebin_site/storage/images/training/professional-workshops/class-aptent-taciti/449-1-eng-GB/Class-aptent-taciti.jpg"
+           package-path="simplefiles/ff0b89c2.jpg"/>
+    <simple-file key="738cce9b0907450d2cb33ac0fe674723"
+           original-path="var/ezwebin_site/storage/images/training/professional-workshops/duis-auctor-vehicula-erat/461-1-eng-GB/Duis-auctor-vehicula-erat.jpg"
+           package-path="simplefiles/fa827da6.jpg"/>
+    <simple-file key="73774479773b99eab3bada48f11b4caa"
+           original-path="var/ezwebin_site/storage/images/support/books/aliquam-pulvinar-suscipit-tellus/535-1-eng-GB/Aliquam-pulvinar-suscipit-tellus.jpg"
+           package-path="simplefiles/ff71e884.jpg"/>
+    <simple-file key="882579ec54e6824e3f4c4c011a2142fd"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-use-ez-publish/592-1-eng-GB/How-to-use-eZ-Publish.jpg"
+           package-path="simplefiles/6370f48e.jpg"/>
+    <simple-file key="df53f0417851fa2e48d907a940793975"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-use-ez-publish/graphics1/600-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/c0f6ccd4.jpg"/>
+    <simple-file key="b88347a8e5b741504067a398265b9c8c"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-use-ez-publish/graphics12/604-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/62e55800.jpg"/>
+    <simple-file key="a26096d82a24b757b91f62319db6db15"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-use-ez-publish/graphics13/608-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/af06f622.jpg"/>
+    <simple-file key="15867b3449a294295447050ebf16db4d"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-use-ez-publish/graphics14/612-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/79e4d6f7.jpg"/>
+    <simple-file key="64f9cbf72cd345b7be17efa72423b8af"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-use-ez-publish/graphics15/616-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/911f6b20.jpg"/>
+    <simple-file key="cd6745a8c31a71daff71ec901816502a"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-use-ez-publish/graphics16/620-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/ddd219d9.jpg"/>
+    <simple-file key="6cbf404a8f9ddb1676e719fe0504bebe"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-use-ez-publish/graphics17/624-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/c5af1381.jpg"/>
+    <simple-file key="1b550bf7a25779cbaba80c6d25777185"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-use-ez-publish/graphics18/628-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/e28d0941.jpg"/>
+    <simple-file key="43f45e6f8c25edb1f60f80ba47534910"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-use-ez-publish/graphics19/632-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/8a794e89.jpg"/>
+    <simple-file key="060ccc1348295cd8d051d4b95ee20106"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-manage-ez-publish/640-1-eng-GB/How-to-manage-eZ-Publish.jpg"
+           package-path="simplefiles/09a805ab.jpg"/>
+    <simple-file key="95ce9c1ffd61e664456f663d98d5e43f"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-manage-ez-publish/graphics1/648-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/fbcde8e6.jpg"/>
+    <simple-file key="21f37064181d0da08d3db2f3ba85e97a"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-manage-ez-publish/graphics12/652-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/5cf9bd55.jpg"/>
+    <simple-file key="478425b022447a86d0360f7ffc8f2d56"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-manage-ez-publish/graphics13/656-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/a183251f.jpg"/>
+    <simple-file key="65a3064de7272d626c313f9e9a85b3cb"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-manage-ez-publish/graphics14/660-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/bca68b6d.jpg"/>
+    <simple-file key="27d7a60a144b18efba962b06cdc4955e"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-manage-ez-publish/graphics15/664-1-eng-GB/graphics1.png"
+           package-path="simplefiles/637a1e26.png"/>
+    <simple-file key="958e8e51b3e89341c772acc53dfbb7e5"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-manage-ez-publish/graphics16/668-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/f37c880c.jpg"/>
+    <simple-file key="1d95f4c595908158d2b793f9fc762549"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-manage-ez-publish/graphics17/672-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/8673a9a8.jpg"/>
+    <simple-file key="5538882e7ebdd4c27ecf63690e9ec776"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-manage-ez-publish/graphics18/676-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/7dd7aab7.jpg"/>
+    <simple-file key="69b0ecf20ab1f67ad1c71bf690c299b9"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-develop-with-ez-publish/684-1-eng-GB/How-to-develop-with-eZ-Publish.png"
+           package-path="simplefiles/cdc85b39.png"/>
+    <simple-file key="798ff2553a2777aafabcc79e440c9641"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-develop-with-ez-publish/graphics1/692-1-eng-GB/graphics1.jpg"
+           package-path="simplefiles/fa21826a.jpg"/>
+    <simple-file key="0ab1c0587756b48f06c5b034118d903e"
+           original-path="var/ezwebin_site/storage/images/getting-started/how-to-develop-with-ez-publish/graphics12/696-1-eng-GB/graphics1.png"
+           package-path="simplefiles/ce010869.png"/>
+    <simple-file key="3aae0c7d4964e5e8224015bee3db9e1f"
+           original-path="var/ezwebin_site/storage/images/ez-publish-enterprise/graphics1/871-1-eng-GB/graphics1.png"
+           package-path="simplefiles/7108eb02.png"/>
+    <simple-file key="61c3ae499ac0232d87ea8b118f8f25ff"
+           original-path="var/ezwebin_site/storage/images/ez-publish-enterprise/graphics12/875-1-eng-GB/graphics1.png"
+           package-path="simplefiles/f3acacb7.png"/>
+    <simple-file key="73840b80317f508478a35fcda68a4b7b"
+           original-path="var/ezwebin_site/storage/images/partners/partner-news/pellentesque-quam-mauris/897-1-eng-GB/Pellentesque-quam-mauris.jpg"
+           package-path="simplefiles/a1a1f735.jpg"/>
+    <simple-file key="6576a12764680ee88601cf606bce19aa"
+           original-path="var/ezwebin_site/storage/images/partners/partner-news/penatibus-et-magnis-dis/909-1-eng-GB/Penatibus-et-magnis-dis.jpg"
+           package-path="simplefiles/8229fdbb.jpg"/>
+    <simple-file key="a4e0f5e6428886346de10b6dc1d9c6ce"
+           original-path="var/ezwebin_site/storage/images/partners/news/curabitur-hendrerit-dignissim/928-1-eng-GB/Curabitur-hendrerit-dignissim.jpg"
+           package-path="simplefiles/f0f8c8e5.jpg"/>
+    <simple-file key="6371777249935371febe48857ff3073b"
+           original-path="var/ezwebin_site/storage/images/partners/news/proin-condimentum-risus/940-1-eng-GB/Proin-condimentum-risus.jpg"
+           package-path="simplefiles/9338e519.jpg"/>
+    <simple-file key="e6529e94559a685498aafd268c21e3ec"
+           original-path="var/ezwebin_site/storage/images/partners/news/morbi-tristique-senectus/952-1-eng-GB/Morbi-tristique-senectus.jpg"
+           package-path="simplefiles/d86c8ccd.jpg"/>
+    <simple-file key="dd95563a7ad4b7b04c79204bc6fc91b8"
+           original-path="var/ezwebin_site/storage/images/partners/partners/neque-orci-malesuada-felis/978-1-eng-GB/Neque-orci-malesuada-felis.jpg"
+           package-path="simplefiles/9bb8adaa.jpg"/>
+    <simple-file key="daf77f25ed9b3bc620691e9653417c46"
+           original-path="var/ezwebin_site/storage/images/community/pictures/ivo-on-ez-tags/1035-1-eng-GB/Ivo-on-eZ-Tags.jpg"
+           package-path="simplefiles/ebfd3068.jpg"/>
+    <simple-file key="018707c18f4390c86b184e5dc68de196"
+           original-path="var/ezwebin_site/storage/images/community/pictures/are-you-ready-for-the-community-day/1039-1-eng-GB/Are-you-ready-for-the-Community-day.jpg"
+           package-path="simplefiles/11b0d332.jpg"/>
+    <simple-file key="1640c5b5b07b35faf3ec700e12f4e49b"
+           original-path="var/ezwebin_site/storage/images/community/pictures/let-s-work-together/1043-1-eng-GB/Let-s-work-together.jpg"
+           package-path="simplefiles/6125dc6a.jpg"/>
+    <simple-file key="256b7cb03a357fa4060d90b8af7e7290"
+           original-path="var/ezwebin_site/storage/images/community/pictures/the-mediterranean-seen-from-nice/1047-1-eng-GB/The-Mediterranean-seen-from-Nice.jpg"
+           package-path="simplefiles/1af8e570.jpg"/>
+    <simple-file key="21ace388419026507173737e41c41ebb"
+           original-path="var/ezwebin_site/storage/images/community/pictures/hotel-lobby-at-isola2000/1051-1-eng-GB/Hotel-lobby-at-Isola2000.jpg"
+           package-path="simplefiles/1ab8e308.jpg"/>
+    <simple-file key="00fa677b78eddc710d186f3a9f372655"
+           original-path="var/ezwebin_site/storage/images/community/pictures/alexander-on-the-past-gaby-on-today-and-tomorrow/1055-1-eng-GB/Alexander-on-the-past-Gaby-on-today-and-tomorrow.jpg"
+           package-path="simplefiles/eaffe5f6.jpg"/>
+    <simple-file key="3f5a5a8477c22a3fc5ccef8c4b3ff042"
+           original-path="var/ezwebin_site/storage/images/community/pictures/isola2000-in-white-beautiful-skiing/1059-1-eng-GB/Isola2000-in-white-beautiful-skiing.jpg"
+           package-path="simplefiles/3cda2b8d.jpg"/>
+    <simple-file key="c7bf11c398338ae19c46213ab18f38be"
+           original-path="var/ezwebin_site/storage/images/community/pictures/ceo-future-pitch-adaptable-open-reliable/1063-1-eng-GB/CEO-future-pitch-Adaptable-open-reliable.jpg"
+           package-path="simplefiles/6f914675.jpg"/>
+    <simple-file key="89f1280fe3576588efc2422bcd492fdc"
+           original-path="var/ezwebin_site/storage/images/company/new-features/separate-content-design-in-ez-publish/1107-1-eng-GB/Separate-content-design-in-eZ-Publish.jpg"
+           package-path="simplefiles/49b2526d.jpg"/>
+    <simple-file key="91b762302abe5a59b799583060a57f7b"
+           original-path="var/ezwebin_site/storage/images/company/new-features/separate-content-design-in-ez-publish/separation_of_content_and_design/1115-1-eng-GB/separation_of_content_and_design.jpg"
+           package-path="simplefiles/735d59a7.jpg"/>
+    <simple-file key="905e3a25f20f8a22b3bcd8fc9d2546e3"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-use-ez-publish/1123-1-eng-GB/How-to-use-eZ-Publish.jpg"
+           package-path="simplefiles/290b345f.jpg"/>
+    <simple-file key="75303536312da506314487cb42a1cd42"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-use-ez-publish/openoffice_import_large/1131-1-eng-GB/openoffice_import_large.jpg"
+           package-path="simplefiles/2e8f0af0.jpg"/>
+    <simple-file key="effa0ddf0e6e3c2cc7efa4b1f264f380"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-use-ez-publish/translation_large/1135-1-eng-GB/translation_large.jpg"
+           package-path="simplefiles/46a4ed85.jpg"/>
+    <simple-file key="0601c5526beca816a587e49c4634d497"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-use-ez-publish/multiupload_large/1139-1-eng-GB/multiupload_large.jpg"
+           package-path="simplefiles/c2d1d9d0.jpg"/>
+    <simple-file key="21de5bacd50d7e8d176d5bda0c1fcda5"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-use-ez-publish/gallery_large/1143-1-eng-GB/gallery_large.jpg"
+           package-path="simplefiles/2f1f7b52.jpg"/>
+    <simple-file key="bcc1bc6822a6715770e6d4018b1d7c69"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-use-ez-publish/search_result_large/1147-1-eng-GB/search_result_large.jpg"
+           package-path="simplefiles/464347c5.jpg"/>
+    <simple-file key="df731dfdd1c716ed3fcc7b37592a97cf"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-use-ez-publish/ez_tool_bar_large/1151-1-eng-GB/ez_tool_bar_large.jpg"
+           package-path="simplefiles/97fc2f96.jpg"/>
+    <simple-file key="078f55f138845e04c4a8df3e4abaa858"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-use-ez-publish/quicktime_large/1155-1-eng-GB/quicktime_large.jpg"
+           package-path="simplefiles/d9b2ca6c.jpg"/>
+    <simple-file key="4bc364968f88810ca3a324f604c578af"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-use-ez-publish/web_2_0_large/1159-1-eng-GB/web_2_0_large.jpg"
+           package-path="simplefiles/8ac9de90.jpg"/>
+    <simple-file key="a9b067ffb407622329638964172d422e"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-manage-ez-publish/1167-1-eng-GB/How-to-manage-eZ-Publish.jpg"
+           package-path="simplefiles/81ce174d.jpg"/>
+    <simple-file key="75d06300ff6956129e962446ee88c709"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-manage-ez-publish/usermanagement_large/1175-1-eng-GB/usermanagement_large.jpg"
+           package-path="simplefiles/a209d3d3.jpg"/>
+    <simple-file key="4e750c73a5b50a7aea32424063dc6116"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-manage-ez-publish/workflow_large/1179-1-eng-GB/workflow_large.jpg"
+           package-path="simplefiles/c5f9ba8b.jpg"/>
+    <simple-file key="846ae38485e96cab74de4fd1f5fa797c"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-manage-ez-publish/versioning_large/1183-1-eng-GB/versioning_large.jpg"
+           package-path="simplefiles/0459422c.jpg"/>
+    <simple-file key="25c23bdc6e138fa9b3c3e2d1c336d1be"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-manage-ez-publish/datatypes_attributes_content_class_and_objects_large/1187-1-eng-GB/datatypes_attributes_content_class_and_objects_large.png"
+           package-path="simplefiles/8130cb3c.png"/>
+    <simple-file key="7405749bfd64bf420e58de944474f2e3"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-manage-ez-publish/multiple_location_large/1191-1-eng-GB/multiple_location_large.jpg"
+           package-path="simplefiles/4e473ce6.jpg"/>
+    <simple-file key="0d545a88205d9530b5f3195f66069788"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-manage-ez-publish/multisite_deployment_large/1195-1-eng-GB/multisite_deployment_large.jpg"
+           package-path="simplefiles/9253bebe.jpg"/>
+    <simple-file key="a6a060f53a6ee035384dadce37bf695a"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-manage-ez-publish/seo_large/1199-1-eng-GB/seo_large.jpg"
+           package-path="simplefiles/d8c4d3c3.jpg"/>
+    <simple-file key="02190e14e660626271459749e8ed5617"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-manage-ez-publish/admin_site_large/1203-1-eng-GB/admin_site_large.jpg"
+           package-path="simplefiles/43b28625.jpg"/>
+    <simple-file key="b1d333c040f44df2a80c030caa7d491e"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-develop-with-ez-publish/1211-1-eng-GB/How-to-develop-with-eZ-Publish.png"
+           package-path="simplefiles/9010fdc4.png"/>
+    <simple-file key="bf5437ffe4d5bdb27d72e12bbc02073f"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-develop-with-ez-publish/datatypes_attributes_content_class_and_objects_large/1219-1-eng-GB/datatypes_attributes_content_class_and_objects_large.jpg"
+           package-path="simplefiles/94a7589b.jpg"/>
+    <simple-file key="3daf1e6aaf8f398ae72d817aecd65003"
+           original-path="var/ezwebin_site/storage/images/company/new-features/how-to-develop-with-ez-publish/site_style_large/1223-1-eng-GB/site_style_large.png"
+           package-path="simplefiles/6673d281.png"/>
+    <simple-file key="5c280ebbdd44ace619b7dadbb3b3b5a8"
+           original-path="var/ezwebin_site/storage/images/company/contact/morbi-neque/1310-1-eng-GB/Morbi-neque.jpg"
+           package-path="simplefiles/53b68034.jpg"/>
+    <simple-file key="7be1c5b7e773040976ea5af7089dc242"
+           original-path="var/ezwebin_site/storage/images/company/company-banner/1316-1-eng-GB/Company-banner.jpg"
+           package-path="simplefiles/560e7a0d.jpg"/>
+    <simple-file key="7406466dd0075bb53d8d055a8998e7a2"
+           original-path="var/ezwebin_site/storage/images/media/images/rest_api/251-1-eng-GB/rest_api.png"
+           package-path="simplefiles/7ddd3112.png"/>
   </simple-files>
   <version>
-    <number>1.7</number>
-    <release>0beta3</release>
+    <number>5.0</number>
+    <release>0-alpha1</release>
   </version>
   <licence>GPL</licence>
   <state>stable</state>
   <dependencies>
-    <provides />
-    <requires />
-    <obsoletes />
-    <conflicts />
+    <provides/>
+    <requires/>
+    <obsoletes/>
+    <conflicts/>
   </dependencies>
   <install>
-    <item type="ezcontentobject"
-          filename="contentobjects"
-          sub-directory="ezcontentobject" />
+    <item type="ezcontentobject" filename="contentobjects" sub-directory="ezcontentobject"/>
   </install>
   <uninstall>
-    <item type="ezcontentobject"
-          filename="contentobjects"
-          sub-directory="ezcontentobject" />
+    <item type="ezcontentobject" filename="contentobjects" sub-directory="ezcontentobject"/>
   </uninstall>
 </package>

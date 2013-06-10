@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <software>
     <metadata>
-        <name>eZ Publish Website Interface</name>
+        <name>eZ Publish Website Interface LS</name>
         <version>//autogentag//</version>
-        <copyright>Copyright (C) 1999-2010 eZ Systems AS</copyright>
+        <copyright>Copyright (C) 1999-2013 eZ Systems AS</copyright>
         <license>//EZP_LICENSE//</license>
     </metadata>
 

@@ -5,7 +5,7 @@
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 // SOFTWARE NAME: eZ publish
 // SOFTWARE RELEASE: 3.9.x
-// COPYRIGHT NOTICE: Copyright (C) 1999-2006 eZ systems AS
+// COPYRIGHT NOTICE: Copyright (C) 1999-2013 eZ Systems AS
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // NOTICE: >
 //   This program is free software; you can redistribute it and/or
@@ -1648,7 +1648,7 @@ class eZWebinInstaller extends eZSiteInstaller
                         'folder', 
                         'user_group', 
                         'documentation_page', 
-                        'event_calender', 
+                        'event_calendar', 
                         'frontpage', 
                         'forums', 
                         'gallery' 
@@ -1923,22 +1923,6 @@ class eZWebinInstaller extends eZSiteInstaller
                     'Subdir' => 'templates', 
                     'Match' => array( 
                         'class_identifier' => 'image' 
-                    ) 
-                ), 
-                'window_controls' => array( 
-                    'Source' => 'window_controls.tpl', 
-                    'MatchFile' => 'window_controls_user.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'navigation_part_identifier' => 'ezusernavigationpart' 
-                    ) 
-                ), 
-                'windows' => array( 
-                    'Source' => 'windows.tpl', 
-                    'MatchFile' => 'windows_user.tpl', 
-                    'Subdir' => 'templates', 
-                    'Match' => array( 
-                        'navigation_part_identifier' => 'ezusernavigationpart' 
                     ) 
                 ), 
                 'embed_image' => array( 
@@ -2388,7 +2372,7 @@ class eZWebinInstaller extends eZSiteInstaller
             ), 
             'event' => array( 
                 'DependentClassIdentifier' => array( 
-                    '0' => 'event_calender' 
+                    '0' => 'event_calendar' 
                 ), 
                 'ClearCacheMethod' => array( 
                     '0' => 'object', 
@@ -3237,7 +3221,7 @@ class eZWebinInstaller extends eZSiteInstaller
                 ), 
                 'edit_ezsubtreesubscription_forum_topic' => array( 
                     'Source' => 'content/datatype/edit/ezsubtreesubscription.tpl', 
-                    'MatchFile' => 'datatype/edit/ezsubtreesubscription/forum_topic.tpl', 
+                    'MatchFile' => 'datatype/edit/forum_topic.tpl', 
                     'Subdir' => 'templates', 
                     'Match' => array( 
                         'class_identifier' => 'forum_topic' 

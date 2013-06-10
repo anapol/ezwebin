@@ -2,6 +2,29 @@
 <!DOCTYPE TS>
 <TS version="2.0" language="it_IT">
 <context>
+    <name>design/admin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation>Anno</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation>Mese</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Giorno</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation>Ora</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation>Minuto</translation>
+    </message>
+</context>
+<context>
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
@@ -14,6 +37,25 @@
     <message>
         <source>information collector</source>
         <translation>raccoglitore informazioni</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezodf/import</name>
+    <message>
+        <source>Create or update the translation in:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Existing translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import in:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -309,90 +351,94 @@
     </message>
     <message>
         <source>Hour</source>
-        <translation>Ora</translation>
+        <translation type="obsolete">Ora</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation>Minuto</translation>
+        <translation type="obsolete">Minuto</translation>
+    </message>
+    <message>
+        <source>Show calendar to select a date.</source>
+        <translation>Mostra il calendario per selezionare una data.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Versioni per &lt;%object_name&gt; [%version_count]</translation>
+        <translation type="obsolete">Versioni per &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Versione</translation>
+        <translation type="obsolete">Versione</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Stato</translation>
+        <translation type="obsolete">Stato</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Traduzioni</translation>
+        <translation type="obsolete">Traduzioni</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>Creatore</translation>
+        <translation type="obsolete">Creatore</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>Modificata il</translation>
+        <translation type="obsolete">Modificata il</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation>Bozza</translation>
+        <translation type="obsolete">Bozza</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation>Pubblicato</translation>
+        <translation type="obsolete">Pubblicato</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation>In attesa</translation>
+        <translation type="obsolete">In attesa</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation>Archiviata</translation>
+        <translation type="obsolete">Archiviata</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation>Respinta</translation>
+        <translation type="obsolete">Respinta</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation>Bozza non modificata</translation>
+        <translation type="obsolete">Bozza non modificata</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation>Quest&apos;oggetto non ha alcuna versione.</translation>
+        <translation type="obsolete">Quest&apos;oggetto non ha alcuna versione.</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation>Mostra le differenze</translation>
+        <translation type="obsolete">Mostra le differenze</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>Differenze fra le versioni %oldVersion e %newVersion</translation>
+        <translation type="obsolete">Differenze fra le versioni %oldVersion e %newVersion</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation>Vecchia versione</translation>
+        <translation type="obsolete">Vecchia versione</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation>Modifiche in linea</translation>
+        <translation type="obsolete">Modifiche in linea</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation>Blocco modifiche</translation>
+        <translation type="obsolete">Blocco modifiche</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation>Nuova versione</translation>
+        <translation type="obsolete">Nuova versione</translation>
     </message>
 </context>
 <context>
@@ -481,6 +527,26 @@
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
         <translation>Modifica &lt;%object_name&gt; (%class_name)</translation>
+    </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Pubblica i contenuti delle bozze in fase di modifica. Le bozze diverranno la versione pubblicata dell&apos;oggetto.</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Registra i contenuti della bozza in fase di modifica e continua a modificarla. Usa questo pulsante per salvare periodicamente il tuo lavoro mentre stai modificando.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Registra la bozza ed esci</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Registra la bozza in fase di modifica ed esci dalla modalità di modifica. Usa questo pulsante per uscire dal tuo lavoro e tornare più tardi per continuare.</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Annulla la bozza che viene modificata. Ciò eliminerà anche le traduzioni che appartengono alla bozza (qualora ve ne siano).</translation>
     </message>
 </context>
 <context>
@@ -1090,7 +1156,7 @@
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>Il documento è stato importato come</translation>
+        <translation type="obsolete">Il documento è stato importato come</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -1125,6 +1191,10 @@ Images are placed in the media library so you can re-use them in other articles.
 dove posizionare i documenti e eZ Publish farà il resto. Il documento viene convertito nella classe
 appropriata durante l&apos;importazione, ne riceverai notifica al completamento dell&apos;importazione.
 Le immagini vengono collocate nella libreria media in modo da poter essere riutilizzate.</translation>
+    </message>
+    <message>
+        <source>File:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1610,6 +1680,10 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <message>
         <source>Cancel</source>
         <translation>Annulla</translation>
+    </message>
+    <message>
+        <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
+        <translation>Gli elementi contengono più nodi del numero massimo possibile per l&apos;eliminazione del sotto-albero e non verranno eliminati. Puoi eliminare questo sotto-albero usando lo script ezsubtreeremove.php.</translation>
     </message>
 </context>
 <context>
@@ -2643,15 +2717,15 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation>Il tuo account ora è attivo.</translation>
+        <translation type="obsolete">Il tuo account ora è attivo.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation>Il tuo account è già attivo.</translation>
+        <translation type="obsolete">Il tuo account è già attivo.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>Spiacenti, la chiave inserita non è valida. L&apos;account non è stato attivato.</translation>
+        <translation type="obsolete">Spiacenti, la chiave inserita non è valida. L&apos;account non è stato attivato.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2960,6 +3034,43 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
         <translation>Nessuno stato da applicare a quest&apos;oggetto contenuto. Hai bisogno di avere permessi più ampi.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/datatype</name>
+    <message>
+        <source>Second</source>
+        <translation>Secondo</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user</name>
+    <message>
+        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
+        <translation>Il tuo indirizzo email è stato confermato. Un amministratore deve approvare la tua richiesta di registrazione, prima che il tuo login diventi valido.</translation>
+    </message>
+    <message>
+        <source>Your account is now activated.</source>
+        <translation>Il tuo account ora è attivo.</translation>
+    </message>
+    <message>
+        <source>Your account is already active.</source>
+        <translation>Il tuo account è già attivo.</translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation>Spiacenti, la chiave inserita non è valida. L&apos;account non è stato attivato.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezodf</name>
+    <message>
+        <source>Document imported as</source>
+        <translation>Il documento è stato importato come</translation>
+    </message>
+    <message>
+        <source>The imported document is waiting for an approbation to be published.</source>
+        <translation>Il documento importato attende l&apos;approvazione per essere pubblicato.</translation>
     </message>
 </context>
 </TS>

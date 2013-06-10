@@ -2,17 +2,59 @@
 <!DOCTYPE TS>
 <TS version="2.0" language="nl_NL" sourcelanguage="en_GB">
 <context>
+    <name>design/admin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation>Jaar</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation>Maand</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Dag</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation>Uur</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation>Minuut</translation>
+    </message>
+</context>
+<context>
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
-        <translation type="unfinished"></translation>
+        <translation>niet te vertalen</translation>
     </message>
     <message>
         <source>required</source>
-        <translation type="unfinished"></translation>
+        <translation>vereist</translation>
     </message>
     <message>
         <source>information collector</source>
+        <translation>informatieverzamelaar</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezodf/import</name>
+    <message>
+        <source>Create or update the translation in:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Existing translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import in:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -309,90 +351,94 @@
     </message>
     <message>
         <source>Hour</source>
-        <translation>Uur</translation>
+        <translation type="obsolete">Uur</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation>Minuut</translation>
+        <translation type="obsolete">Minuut</translation>
+    </message>
+    <message>
+        <source>Show calendar to select a date.</source>
+        <translation>Toon kalendar om een datum te selecteren.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Versies voor &lt;%object_name&gt; (%version_count)</translation>
+        <translation type="obsolete">Versies voor &lt;%object_name&gt; (%version_count)</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Versie</translation>
+        <translation type="obsolete">Versie</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation type="obsolete">Status</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Vertalingen</translation>
+        <translation type="obsolete">Vertalingen</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>Creator</translation>
+        <translation type="obsolete">Creator</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>Gewijzigd</translation>
+        <translation type="obsolete">Gewijzigd</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation>Concept</translation>
+        <translation type="obsolete">Concept</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation>Gepubliceerd</translation>
+        <translation type="obsolete">Gepubliceerd</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation>In behandeling</translation>
+        <translation type="obsolete">In behandeling</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation>Gearchiveerd</translation>
+        <translation type="obsolete">Gearchiveerd</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation>Verworpen</translation>
+        <translation type="obsolete">Verworpen</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation>Onaangeroerd concept</translation>
+        <translation type="obsolete">Onaangeroerd concept</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation>Dit object heeft geen versies.</translation>
+        <translation type="obsolete">Dit object heeft geen versies.</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation>Verschillen weergeven</translation>
+        <translation type="obsolete">Verschillen weergeven</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>Verschillen tussen versies %oldVersion en %newVersion</translation>
+        <translation type="obsolete">Verschillen tussen versies %oldVersion en %newVersion</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation>Oude versie</translation>
+        <translation type="obsolete">Oude versie</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation>Inline wijzigingen</translation>
+        <translation type="obsolete">Inline wijzigingen</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation>Wijzigingen blokkeren</translation>
+        <translation type="obsolete">Wijzigingen blokkeren</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation>Nieuwe versie</translation>
+        <translation type="obsolete">Nieuwe versie</translation>
     </message>
 </context>
 <context>
@@ -452,14 +498,15 @@
     <message>
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
       You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit zijn de objecten waar u nu mee werkt. De concepten zijn van u en kunnen alleen door u bekeken worden.
+     U kunt de concepten bewerken of verwijderen, als u ze niet meer nodig hebt.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit</name>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Bewerk %1 - %2</translation>
+        <translation type="obsolete">Bewerk %1 - %2</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
@@ -481,24 +528,44 @@
         <source>Discard draft</source>
         <translation>Concept verwerpen</translation>
     </message>
+    <message>
+        <source>Edit &lt;%object_name&gt; (%class_name)</source>
+        <translation>&lt;%object_name&gt; (%class_name) bewerken</translation>
+    </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>De inhoud van het concept dat u nu bewerkt publiceren. Het concept wordt de gepubliceerde versie van het object.</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>De inhoud van het concept dat u nu bewerkt opslaan en doorgaan met bewerken. Gebruik deze knop om af en toe uw werk op te slaan tijdens het bewerken.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Concept opslaan en het bewerken beëindigen</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Het concept dat u nu bewerkt opslaan en het bewerken beëindigen. Gebruiken om het bewerken te stoppen en later verder te gaan.</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Het concept dat u nu bewerkt verwerpen. Hiermee verwijdert u ook eventuele vertalingen bij dit concept.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit_attribute</name>
     <message>
         <source>Not translatable</source>
-        <translation>Niet te vertalen</translation>
+        <translation type="obsolete">Niet te vertalen</translation>
     </message>
     <message>
         <source>Required</source>
-        <translation>Vereist</translation>
+        <translation type="obsolete">Vereist</translation>
     </message>
     <message>
         <source>Information collector</source>
-        <translation>Informatieverzamelaar</translation>
-    </message>
-    <message>
-        <source>Edit &lt;%object_name&gt; (%class_name)</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Informatieverzamelaar</translation>
     </message>
 </context>
 <context>
@@ -550,17 +617,20 @@
     <message>
         <source>This object is already being edited by yourself and others.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit object wordt al door u of door anderen bewerkt.
+   U kunt doorgaan met het bewerken van één van uw conceptversies of een nieuwe versie maken.</translation>
     </message>
     <message>
         <source>This object is already being edited by you.
         You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit object wordt al door u bewerkt.
+   U kunt doorgaan met het bewerken van één van uw conceptversies of een nieuwe versie maken.</translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
         You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit object wordt al door een ander bewerkt.
+   U dient contact op te nemen met deze persoon, of een nieuwe conceptversie voor eigen gebruik te maken.</translation>
     </message>
 </context>
 <context>
@@ -1047,7 +1117,7 @@
     <name>design/ezwebin/ezodf/browse_place</name>
     <message>
         <source>Choose document placement</source>
-        <translation>Kies de documentplaatsing</translation>
+        <translation>Kies de locatie voor het document</translation>
     </message>
     <message>
         <source>Select</source>
@@ -1059,7 +1129,11 @@
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kies de locatie voor het OpenOffice document.
+
+   Selecteer de locaties en klik de %buttonname button
+   Het gebruik van de recente en de bladwijzer-items voor een snelle plaatsing is ook mogelijk.
+   Klik op de locatienamen om de lijst van het bladeren te wijzigen.</translation>
     </message>
 </context>
 <context>
@@ -1101,7 +1175,7 @@
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>Document geïmporteerd als</translation>
+        <translation type="obsolete">Document geïmporteerd als</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -1132,6 +1206,13 @@
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
+        <translation>Vanaf deze pagina kunt u OpenOffice documenten rechtstreeks importeren. U geeft aan
+waar het document geplaatst moet worden en eZ publish doet de rest.Het document wordt tijdens het importeren
+omgezet in de passende klasse, u krijgt hiervan een bericht als de import is voltooid.
+Afbeeldingen worden in de media bibliotheek geplaatst, zodat u deze opnieuw kunt gebruiken in andere artikelen.</translation>
+    </message>
+    <message>
+        <source>File:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1249,7 +1330,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Show All Events..</source>
-        <translation type="unfinished"></translation>
+        <translation>Toon alle gebeurtenissen..</translation>
     </message>
 </context>
 <context>
@@ -1399,7 +1480,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Forum</source>
-        <translation type="unfinished"></translation>
+        <translation>Forum</translation>
     </message>
 </context>
 <context>
@@ -1478,6 +1559,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Add comment</source>
         <translation>Commentaren toevoegen</translation>
+    </message>
+    <message>
+        <source>Tags:</source>
+        <translation>Labels:</translation>
     </message>
 </context>
 <context>
@@ -1615,6 +1700,11 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Cancel</source>
         <translation>Annuleren</translation>
     </message>
+    <message>
+        <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
+        <translation>De items bevatten teveel knooppunten in een subtree en worden daarom niet verwijderd. U kunt de subtree verwijderen met het script ezsubtreeremove.php.
+</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/notification/addingresult</name>
@@ -1720,439 +1810,439 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Skip to main content</source>
-        <translation type="unfinished"></translation>
+        <translation>Naar hoofdinhoud springen</translation>
     </message>
     <message>
         <source>Search text:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoektekst:</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/parts/website_toolbar</name>
     <message>
         <source>Remove node RSS/ATOM feed</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS/ATOM feed van dit knooppunt verwijderen</translation>
     </message>
     <message>
         <source>Create node RSS/ATOM feed</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS/ATOM feed van dit knooppunt aanmaken</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/edit_export</name>
     <message>
         <source>Edit &lt;%rss_export_name&gt; [RSS Export]</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;%rss_export_name&gt; [RSS Export] bewerken</translation>
     </message>
     <message>
         <source>Invalid input</source>
-        <translation type="unfinished"></translation>
+        <translation>Ongeldige invoer</translation>
     </message>
     <message>
         <source>If RSS Export is Active then a valid Access URL is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als de RSS Export actief is, is een geldige URL vereist.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Naam</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <source>Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>Naam van de RSS export. Deze naam wordt alleen in de beheerinterface gebruikt, om onderscheid te maken tussen verschillende exports.</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Omschrijving</translation>
+        <translation>Omschrijving</translation>
     </message>
     <message>
         <source>Use the description field to write a text explaining what users can expect from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik het veld Omschrijving om uit te leggen wat gebruikers van de RSS export kunnen verwachten.</translation>
     </message>
     <message>
         <source>Site URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Site URL</translation>
     </message>
     <message>
         <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik dit veld om de basis-URL van uw site in te voeren. Dit wordt gebruikt om de URLs in de export te vormen, samengesteld uit de site URL (bijv. &quot;http://www.example.com/index.php&quot;) en het pad naar het object (bijv. &quot;/articles/my_article&quot;). De site URL hangt af van uw web server en de eZ Publish configuratie.</translation>
     </message>
     <message>
         <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit veld leeglaten om het systeem automatisch de site URL van de URL van de feed te laten overnemen</translation>
     </message>
     <message>
         <source>Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Afbeelding</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Bladeren</translation>
+        <translation>Bladeren</translation>
     </message>
     <message>
         <source>Click this button to select an image for the RSS export. Note that images only work with RSS version 2.0</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik op deze knop om een afbeelding voor de RSS export te selecteren. Afbeeldingen werken alleen met RSS versie 2.0</translation>
     </message>
     <message>
         <source>Remove image</source>
-        <translation type="unfinished"></translation>
+        <translation>Afbeelding verwijderen</translation>
     </message>
     <message>
         <source>Click to remove image from RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik om de afbeelding  van de RSS export te verwijderen.</translation>
     </message>
     <message>
         <source>RSS version</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS versie</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the RSS version to use for the export. You must select RSS 2.0 in order to export the image selected above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik deze keuzelijst om de RSS versie voor de export te selecteren. Kies RSS 2.0 om de hierboven geselecteerde afbeelding te exporteren.</translation>
     </message>
     <message>
         <source>Number of objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Aantal objecten</translation>
     </message>
     <message>
         <source>Use this drop-down to select the maximum number of objects included in the RSS feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik deze keuzelijst om het maximale aantal objecten in de RSS feed te selecteren.</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Actief</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS export is active or not. An inactive export will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik dit keuzevakje om de RSS export actief te maken. Een niet-actieve export wordt niet automatisch bijgewerkt.</translation>
     </message>
     <message>
         <source>Main node only</source>
-        <translation type="unfinished"></translation>
+        <translation>Alleen hoofdknooppunten</translation>
     </message>
     <message>
         <source>Check if you want to only feed the object from the main node.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aanvinken als u alleen objecten van een hoofdknopppunt wilt exporteren.</translation>
     </message>
     <message>
         <source>Access URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL voor RSS export</translation>
     </message>
     <message>
         <source>Use this field to set the URL where the RSS export should be available. Note that &quot;rss/feed/&quot; will be appended to the real URL. </source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik dit veld om de URL in te stellen waar de RSS export beschikbaar is. In de uiteindelijke URL gaat hier &quot;rss/feed/&quot; aan vooraf.</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Bron</translation>
     </message>
     <message>
         <source>Source path</source>
-        <translation type="unfinished"></translation>
+        <translation>Bronpad</translation>
     </message>
     <message>
         <source>Click this button to select the source node for the RSS export source. Objects of the type selected in the drop-down below published as sub items of the selected node will be included in the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik op deze knop om het beginknooppunt voor de RSS export te selecteren. Objecten van het in de keuzelijst geselecteerde type, die als subitems van dit knooppunt zijn gepubliceerd, worden in de RSS export opgenomen.</translation>
     </message>
     <message>
         <source>Subnodes</source>
-        <translation type="unfinished"></translation>
+        <translation>Subnodes</translation>
     </message>
     <message>
         <source>Activate this checkbox if objects from the subnodes of the source should also be fed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aanvinken als subitems van het beginknooppunt ook moeten worden meegenomen.</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Klasse</translation>
+        <translation>Klasse</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object that triggers the export. Click the &quot;Set&quot; button to load the correct attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik deze keuzelijst om het objecttype voor de export te selecteren. Klik op de knp &quot;Instellen&quot;  om de juiste attribuuttypes voor de resterende velden te laden.</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Instellen</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik op deze knop om de juiste waarden in de keuzelijsten hieronder te laden. Gebruik de keuzelijst links om de klasse te selecteren.</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Titel</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik deze keuzelijst om het attribuut te selecteren dat als titel voor het RSS export item wordt genomen.</translation>
     </message>
     <message>
         <source>optional</source>
-        <translation type="unfinished"></translation>
+        <translation>optioneel</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik deze keuzelijst om het attribuut te selecteren dat als omschrijving voor het RSS export item wordt genomen.</translation>
     </message>
     <message>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>Overslaan</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished">Categorie</translation>
+        <translation>Categorie</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik deze keuzelijst om het attribuut te selecteren dat als category voor het RSS export item wordt genomen.</translation>
     </message>
     <message>
         <source>Remove this source</source>
-        <translation type="unfinished"></translation>
+        <translation>Deze bron verwijderen</translation>
     </message>
     <message>
         <source>Click to remove this source from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier op klikken om deze bron uit de RSS export te verwijderen.</translation>
     </message>
     <message>
         <source>Add source</source>
-        <translation type="unfinished"></translation>
+        <translation>Bron toevoegen</translation>
     </message>
     <message>
         <source>Click to add a new source to the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier op klikken om een nieuwe bron aan de RSS export toe te voegen.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>De wijzigingen toepassen en naar het RSS overzicht terug gaan.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Annuleren</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>De wijzigingen annuleren en naar het RSS overzicht terug gaan.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/edit_import</name>
     <message>
         <source>Edit &lt;%rss_import_name&gt; [RSS Import]</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;%rss_import_name&gt; [RSS Import] bewerken</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Naam</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <source>Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>Naam van de RSS import. Deze naam wordt alleen in de beheerinterface gebruikt, om onderscheid te maken tussen verschillende imports.</translation>
     </message>
     <message>
         <source>Source URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Bron URL</translation>
     </message>
     <message>
         <source>Use this field to enter the source URL of the RSS feed to import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik dit veld om de URL van de RSS feed in te voeren.</translation>
     </message>
     <message>
         <source>Update</source>
-        <translation type="unfinished">Update</translation>
+        <translation>Bijwerken</translation>
     </message>
     <message>
         <source>Click this button to proceed and analyze the import feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik op deze knop om door te gaan en de import feed te analyseren.</translation>
     </message>
     <message>
         <source>RSS Version</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS versie</translation>
     </message>
     <message>
         <source>Destination path</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestemmingspad</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Bladeren</translation>
+        <translation>Bladeren</translation>
     </message>
     <message>
         <source>Click this button to select the destination node where objects created by the import are located.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik op deze knop om het bestemmingsknooppunt te selecteren, waar de geïmporteerde objecten worden geplaatst.</translation>
     </message>
     <message>
         <source>Imported objects will be owned by</source>
-        <translation type="unfinished"></translation>
+        <translation>Eigenaar van de geïmporteerde objecten</translation>
     </message>
     <message>
         <source>Change user</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruiker veranderen</translation>
     </message>
     <message>
         <source>Click this button to select the user who should own the objects created by the import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik op deze knop om de gebruiker te selecteren die de eigenaar wordt van de te importeren objecten.</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Klasse</translation>
+        <translation>Klasse</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object the import should create. Click the &quot;Set&quot; button to load the attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik deze keuzelijst om het objecttype te selecteren, dat door de import wordt aangemaakt. Klik op de knop &quot;Instellen&quot; om de attribuuttypes voor de resterende velden te laden.</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Instellen</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik op deze knop om de juiste waarden in de keuzelijsten hieronder te laden. Gebruik de keuzelijst links om de klasse te selecteren.</translation>
     </message>
     <message>
         <source>Class attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Klasse attributen</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the attribute that should bet set as information from the RSS stream.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik deze keuzelijst om het RSS attribuut te selecteren waarvan de informatie voor dit objectattribuut wordt gebruikt.</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"></translation>
+        <translation>Negeren</translation>
     </message>
     <message>
         <source>Object attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Objectattributen</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Actief</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS feed is active or not. An inactive feed will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik dit keuzevakje om aan te geven of de RSS feed actief is of niet. An niet-actieve feed wordt niet automatisch bijgewerkt.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>De wijzigingen toepassen en naar het RSS overzicht terug gaan.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Annuleren</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>De wijzigingen annuleren en naar het RSS overzicht terug gaan.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/list</name>
     <message>
         <source>RSS exports [%exports_count]</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished">Selectie omkeren</translation>
+        <translation>Selectie omkeren</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished">Selectie omkeren.</translation>
+        <translation>Selectie omkeren.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Naam</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">Versie</translation>
+        <translation>Versie</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished">Status</translation>
+        <translation>Status</translation>
     </message>
     <message>
         <source>Modifier</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished">Gewijzigd</translation>
+        <translation>Gewijzigd</translation>
     </message>
     <message>
         <source>Select RSS export for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Inactive</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">Bewerken</translation>
+        <translation>Bewerken</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>The RSS export list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">Selectie verwijderen</translation>
+        <translation>Selectie verwijderen</translation>
     </message>
     <message>
         <source>Remove selected RSS exports.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>New export</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Create a new RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>RSS imports [%imports_count]</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Select RSS import for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>The RSS import list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Remove selected RSS imports.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>New import</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Create a new RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -2331,6 +2421,18 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Confirm</source>
         <translation>Bevestigen</translation>
+    </message>
+    <message>
+        <source>Summary</source>
+        <translation>Samenvatting</translation>
+    </message>
+    <message>
+        <source>Total ex. VAT</source>
+        <translation>Totaal excl. btw</translation>
+    </message>
+    <message>
+        <source>Total inc. VAT</source>
+        <translation>Totaal incl. btw</translation>
     </message>
 </context>
 <context>
@@ -2635,15 +2737,15 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation>Uw account is nu geactiveerd.</translation>
+        <translation type="obsolete">Uw account is nu geactiveerd.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation>Uw account is reeds actief.</translation>
+        <translation type="obsolete">Uw account is reeds actief.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>Soory, de ingegeven sleutel was geen geldige sleutel. De account werd niet geactiveerd.</translation>
+        <translation type="obsolete">Soory, de ingegeven sleutel was geen geldige sleutel. De account werd niet geactiveerd.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2894,11 +2996,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Your browser does not support html5 video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Uw browser ondersteunt geen html5 video.</translation>
     </message>
     <message>
         <source>Your browser does not support html5 audio.</source>
-        <translation type="unfinished"></translation>
+        <translation>Uw browser ondersteunt geen html5 audio.</translation>
     </message>
 </context>
 <context>
@@ -2951,6 +3053,43 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/datatype</name>
+    <message>
+        <source>Second</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user</name>
+    <message>
+        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
+        <translation>Uw e-mailadres is bevestigd. Uw aanmelding is pas geldig, als een beheerder deze heeft goedgekeurd.</translation>
+    </message>
+    <message>
+        <source>Your account is now activated.</source>
+        <translation>Uw account is nu geactiveerd.</translation>
+    </message>
+    <message>
+        <source>Your account is already active.</source>
+        <translation>Uw account is reeds actief.</translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation>Soory, de ingegeven sleutel was geen geldige sleutel. De account werd niet geactiveerd.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezodf</name>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished">Document geïmporteerd als</translation>
+    </message>
+    <message>
+        <source>The imported document is waiting for an approbation to be published.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

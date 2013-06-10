@@ -2,6 +2,29 @@
 <!DOCTYPE TS>
 <TS version="2.0">
 <context>
+    <name>design/admin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished">Rok</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished">Měsíc</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished">Den</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished">Hodina</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished">Minuta</translation>
+    </message>
+</context>
+<context>
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
@@ -13,6 +36,25 @@
     </message>
     <message>
         <source>information collector</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezodf/import</name>
+    <message>
+        <source>Create or update the translation in:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Existing translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import in:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -309,90 +351,94 @@
     </message>
     <message>
         <source>Hour</source>
-        <translation>Hodina</translation>
+        <translation type="obsolete">Hodina</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation>Minuta</translation>
+        <translation type="obsolete">Minuta</translation>
+    </message>
+    <message>
+        <source>Show calendar to select a date.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Verze pro &lt;%object_name&gt; [%version_count]</translation>
+        <translation type="obsolete">Verze pro &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Verze</translation>
+        <translation type="obsolete">Verze</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation type="obsolete">Status</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Překlady</translation>
+        <translation type="obsolete">Překlady</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>Tvůrce</translation>
+        <translation type="obsolete">Tvůrce</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>Změněno</translation>
+        <translation type="obsolete">Změněno</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation>Koncept</translation>
+        <translation type="obsolete">Koncept</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation>Publikováno</translation>
+        <translation type="obsolete">Publikováno</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation>Čeká na vyřízení</translation>
+        <translation type="obsolete">Čeká na vyřízení</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation>Archivován</translation>
+        <translation type="obsolete">Archivován</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation>Zamítnut</translation>
+        <translation type="obsolete">Zamítnut</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation>Nedotčený koncept</translation>
+        <translation type="obsolete">Nedotčený koncept</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation>Tento objekt nemá žádné verze.</translation>
+        <translation type="obsolete">Tento objekt nemá žádné verze.</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation>Ukázat rozdíly</translation>
+        <translation type="obsolete">Ukázat rozdíly</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>Rozdíly mezi verzemi %oldVersion a %newVersion</translation>
+        <translation type="obsolete">Rozdíly mezi verzemi %oldVersion a %newVersion</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation>Stará verze</translation>
+        <translation type="obsolete">Stará verze</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation>souběžné změny</translation>
+        <translation type="obsolete">souběžné změny</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation>Blokovat změny</translation>
+        <translation type="obsolete">Blokovat změny</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation>Nová verze</translation>
+        <translation type="obsolete">Nová verze</translation>
     </message>
 </context>
 <context>
@@ -479,6 +525,26 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1082,7 +1148,7 @@
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>Dokument importován jako</translation>
+        <translation type="obsolete">Dokument importován jako</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -1113,6 +1179,10 @@
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1599,6 +1669,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Cancel</source>
         <translation>Zrušit</translation>
+    </message>
+    <message>
+        <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2632,15 +2706,15 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation>Váš účet je nyní aktivován.</translation>
+        <translation type="obsolete">Váš účet je nyní aktivován.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation>Váš účet je již aktivní.</translation>
+        <translation type="obsolete">Váš účet je již aktivní.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>Lituji, ale klíč není platný. Uživatelský účet nebude aktivován.</translation>
+        <translation type="obsolete">Lituji, ale klíč není platný. Uživatelský účet nebude aktivován.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2948,6 +3022,43 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/datatype</name>
+    <message>
+        <source>Second</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user</name>
+    <message>
+        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your account is now activated.</source>
+        <translation type="unfinished">Váš účet je nyní aktivován.</translation>
+    </message>
+    <message>
+        <source>Your account is already active.</source>
+        <translation type="unfinished">Váš účet je již aktivní.</translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation type="unfinished">Lituji, ale klíč není platný. Uživatelský účet nebude aktivován.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezodf</name>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished">Dokument importován jako</translation>
+    </message>
+    <message>
+        <source>The imported document is waiting for an approbation to be published.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

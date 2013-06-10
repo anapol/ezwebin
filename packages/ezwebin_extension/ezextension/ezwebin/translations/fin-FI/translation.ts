@@ -2,6 +2,29 @@
 <!DOCTYPE TS>
 <TS version="2.0">
 <context>
+    <name>design/admin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished">Vuosi</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished">Kuukausi</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished">Päivä</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished">Tunti</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished">Minuutti</translation>
+    </message>
+</context>
+<context>
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
@@ -13,6 +36,25 @@
     </message>
     <message>
         <source>information collector</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezodf/import</name>
+    <message>
+        <source>Create or update the translation in:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Existing translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import in:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -309,90 +351,94 @@
     </message>
     <message>
         <source>Hour</source>
-        <translation>Tunti</translation>
+        <translation type="obsolete">Tunti</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation>Minuutti</translation>
+        <translation type="obsolete">Minuutti</translation>
+    </message>
+    <message>
+        <source>Show calendar to select a date.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Versiot &lt;%object_name&gt; [%version_count]</translation>
+        <translation type="obsolete">Versiot &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Versio</translation>
+        <translation type="obsolete">Versio</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Tilanne</translation>
+        <translation type="obsolete">Tilanne</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Käännökset</translation>
+        <translation type="obsolete">Käännökset</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>Luoja</translation>
+        <translation type="obsolete">Luoja</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>Muokattu</translation>
+        <translation type="obsolete">Muokattu</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation>Luonnos</translation>
+        <translation type="obsolete">Luonnos</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation>Julkaistu</translation>
+        <translation type="obsolete">Julkaistu</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation>Odottaa</translation>
+        <translation type="obsolete">Odottaa</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation>Arkistoitu</translation>
+        <translation type="obsolete">Arkistoitu</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation>Hylätty</translation>
+        <translation type="obsolete">Hylätty</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation>Koskematon luonnos</translation>
+        <translation type="obsolete">Koskematon luonnos</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation>Tällä objektilla ei ole versioita.</translation>
+        <translation type="obsolete">Tällä objektilla ei ole versioita.</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation>Näytä erot</translation>
+        <translation type="obsolete">Näytä erot</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>Erot versioiden %oldVersion ja %newVersion välillä</translation>
+        <translation type="obsolete">Erot versioiden %oldVersion ja %newVersion välillä</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation>Vanha versio</translation>
+        <translation type="obsolete">Vanha versio</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation>Avoimet muutokset</translation>
+        <translation type="obsolete">Avoimet muutokset</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation>Estä muutokset</translation>
+        <translation type="obsolete">Estä muutokset</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation>Uusi versio</translation>
+        <translation type="obsolete">Uusi versio</translation>
     </message>
 </context>
 <context>
@@ -479,6 +525,26 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1084,7 +1150,7 @@ Parametrit ovat linkitettynä alku- ja loppumerkkeihin</translation>
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>Dokumentti on tuotu nimellä</translation>
+        <translation type="obsolete">Dokumentti on tuotu nimellä</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -1115,6 +1181,10 @@ Parametrit ovat linkitettynä alku- ja loppumerkkeihin</translation>
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1601,6 +1671,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Cancel</source>
         <translation>Peruuta</translation>
+    </message>
+    <message>
+        <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2634,15 +2708,15 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation>Käyttäjätilisi on nyt aktivoitu.</translation>
+        <translation type="obsolete">Käyttäjätilisi on nyt aktivoitu.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation>Käyttäjätilisi on jo aktiivinen.</translation>
+        <translation type="obsolete">Käyttäjätilisi on jo aktiivinen.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>Anteeksi, annettu avain ei ollu kelvollinen. Tiliä ei aktivoitu.</translation>
+        <translation type="obsolete">Anteeksi, annettu avain ei ollu kelvollinen. Tiliä ei aktivoitu.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2956,6 +3030,43 @@ Nappi</translation>
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/datatype</name>
+    <message>
+        <source>Second</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user</name>
+    <message>
+        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your account is now activated.</source>
+        <translation type="unfinished">Käyttäjätilisi on nyt aktivoitu.</translation>
+    </message>
+    <message>
+        <source>Your account is already active.</source>
+        <translation type="unfinished">Käyttäjätilisi on jo aktiivinen.</translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation type="unfinished">Anteeksi, annettu avain ei ollu kelvollinen. Tiliä ei aktivoitu.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezodf</name>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished">Dokumentti on tuotu nimellä</translation>
+    </message>
+    <message>
+        <source>The imported document is waiting for an approbation to be published.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

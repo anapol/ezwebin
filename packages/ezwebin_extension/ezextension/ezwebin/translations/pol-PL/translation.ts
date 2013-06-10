@@ -2,6 +2,29 @@
 <!DOCTYPE TS>
 <TS version="2.0">
 <context>
+    <name>design/admin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished">Rok</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished">Miesiąc</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished">Dzień</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished">Godzina</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished">Minuta</translation>
+    </message>
+</context>
+<context>
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
@@ -13,6 +36,25 @@
     </message>
     <message>
         <source>information collector</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezodf/import</name>
+    <message>
+        <source>Create or update the translation in:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Existing translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import in:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -309,90 +351,94 @@
     </message>
     <message>
         <source>Hour</source>
-        <translation>Godzina</translation>
+        <translation type="obsolete">Godzina</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation>Minuta</translation>
+        <translation type="obsolete">Minuta</translation>
+    </message>
+    <message>
+        <source>Show calendar to select a date.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Liczba wersji &lt;%object_name&gt; [%version_count]</translation>
+        <translation type="obsolete">Liczba wersji &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Wersja</translation>
+        <translation type="obsolete">Wersja</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation type="obsolete">Status</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Tłumaczenia</translation>
+        <translation type="obsolete">Tłumaczenia</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>Twórca</translation>
+        <translation type="obsolete">Twórca</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>Zmodyfikowany</translation>
+        <translation type="obsolete">Zmodyfikowany</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation>Szkic</translation>
+        <translation type="obsolete">Szkic</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation>Opublikowany</translation>
+        <translation type="obsolete">Opublikowany</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation>Oczekujący</translation>
+        <translation type="obsolete">Oczekujący</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation>Zarchiwizowany</translation>
+        <translation type="obsolete">Zarchiwizowany</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation>Odrzucony</translation>
+        <translation type="obsolete">Odrzucony</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation>Nieużywany szkic</translation>
+        <translation type="obsolete">Nieużywany szkic</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation>Ten obiekt nie ma żadnej wersji.</translation>
+        <translation type="obsolete">Ten obiekt nie ma żadnej wersji.</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation>Pokaż różnice</translation>
+        <translation type="obsolete">Pokaż różnice</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>Różnice pomiędzy wersjami %oldVersion i %newVersion</translation>
+        <translation type="obsolete">Różnice pomiędzy wersjami %oldVersion i %newVersion</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation>Stara wersja</translation>
+        <translation type="obsolete">Stara wersja</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation>Zmiany w linii</translation>
+        <translation type="obsolete">Zmiany w linii</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation>Zmiany blokowe</translation>
+        <translation type="obsolete">Zmiany blokowe</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation>Nowa wersja</translation>
+        <translation type="obsolete">Nowa wersja</translation>
     </message>
 </context>
 <context>
@@ -479,6 +525,26 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1082,7 +1148,7 @@
     </message>
     <message>
         <source>Document imported as</source>
-        <translation>Dokument zaimportowany jako</translation>
+        <translation type="obsolete">Dokument zaimportowany jako</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -1113,6 +1179,10 @@
 asked where to place the document and eZ publish does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1599,6 +1669,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>If %trashname is checked, removed items can be found in the trash.</source>
         <translation>Jeśli %trashname jest zaznaczony, usunięte pozycje można odnaleźć w koszu.</translation>
+    </message>
+    <message>
+        <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2632,15 +2706,15 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation>Twoje konto zostało aktywowane.</translation>
+        <translation type="obsolete">Twoje konto zostało aktywowane.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>Niestety wprowadzony klucz nie jest właściwy. Konto nie zostało aktywowane.</translation>
+        <translation type="obsolete">Niestety wprowadzony klucz nie jest właściwy. Konto nie zostało aktywowane.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation>Twoje konto jest już aktywne.</translation>
+        <translation type="obsolete">Twoje konto jest już aktywne.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2948,6 +3022,43 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/datatype</name>
+    <message>
+        <source>Second</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user</name>
+    <message>
+        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your account is now activated.</source>
+        <translation type="unfinished">Twoje konto zostało aktywowane.</translation>
+    </message>
+    <message>
+        <source>Your account is already active.</source>
+        <translation type="unfinished">Twoje konto jest już aktywne.</translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation type="unfinished">Niestety wprowadzony klucz nie jest właściwy. Konto nie zostało aktywowane.</translation>
+    </message>
+</context>
+<context>
+    <name>extension/ezodf</name>
+    <message>
+        <source>Document imported as</source>
+        <translation type="unfinished">Dokument zaimportowany jako</translation>
+    </message>
+    <message>
+        <source>The imported document is waiting for an approbation to be published.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
