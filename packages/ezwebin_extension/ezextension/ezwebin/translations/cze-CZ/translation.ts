@@ -1349,7 +1349,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Last reply</source>
-        <translation>Podlední odpověď</translation>
+        <translation>Poslední odpověď</translation>
     </message>
     <message>
         <source>Pages</source>
@@ -1446,7 +1446,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Last reply</source>
-        <translation>Podlední odpověď</translation>
+        <translation>Poslední odpověď</translation>
     </message>
     <message>
         <source>Forum</source>
@@ -1568,7 +1568,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Last reply</source>
-        <translation>Podlední odpověď</translation>
+        <translation>Poslední odpověď</translation>
     </message>
     <message>
         <source>Enter forum</source>
