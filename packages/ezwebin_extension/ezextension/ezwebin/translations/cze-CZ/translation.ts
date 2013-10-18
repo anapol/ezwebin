@@ -81,7 +81,7 @@
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation>%login_link_startLog v %login_link_end nebo %create_link_startcreate účtu uživatele %create_link_end do komentáře.</translation>
+        <translation>Pro přidání komentáře se %login_link_startpřihlašte%login_link_end nebo %create_link_startzaregistrujte%create_link_end.</translation>
     </message>
 </context>
 <context>
@@ -104,7 +104,7 @@
     </message>
     <message>
         <source>Tue</source>
-        <translation>Ót</translation>
+        <translation>út</translation>
     </message>
     <message>
         <source>Wed</source>
@@ -112,7 +112,7 @@
     </message>
     <message>
         <source>Thu</source>
-        <translation />
+        <translation>Čt</translation>
     </message>
     <message>
         <source>Fri</source>
@@ -226,7 +226,7 @@
     </message>
     <message>
         <source>Published</source>
-        <translation>Vydáno</translation>
+        <translation>Publikováno</translation>
     </message>
     <message>
         <source>Any time</source>
@@ -394,7 +394,7 @@
     </message>
     <message>
         <source>Published</source>
-        <translation type="obsolete">Vydáno</translation>
+        <translation type="obsolete">Publikováno</translation>
     </message>
     <message>
         <source>Pending</source>
@@ -465,7 +465,7 @@
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Section</source>
@@ -513,7 +513,7 @@
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Poslat k vydání</translation>
+        <translation>Odeslat k publikaci</translation>
     </message>
     <message>
         <source>Store draft</source>
@@ -529,7 +529,7 @@
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Publikovat koncept který je upravován.</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
@@ -537,11 +537,11 @@
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Uložit koncept a odejít</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Uloží koncept a ukončí editaci. Použijte pro uložení rozpracovaného konceptu k pozdějšímu dokončení.</translation>
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
@@ -741,7 +741,7 @@
     </message>
     <message>
         <source>Published</source>
-        <translation>Vydáno</translation>
+        <translation>Publikováno</translation>
     </message>
     <message>
         <source>Pending</source>
@@ -867,7 +867,7 @@
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Section</source>
@@ -993,7 +993,7 @@
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Poslat k vydání</translation>
+        <translation>Odeslat k publikaci</translation>
     </message>
     <message>
         <source>Discard</source>
@@ -1008,7 +1008,7 @@
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Poslat k vydání</translation>
+        <translation>Odeslat k publikaci</translation>
     </message>
     <message>
         <source>Discard</source>
@@ -1023,7 +1023,7 @@
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Poslat k vydání</translation>
+        <translation>Odeslat k publikaci</translation>
     </message>
     <message>
         <source>Discard</source>
@@ -1038,7 +1038,7 @@
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Poslat k vydání</translation>
+        <translation>Odeslat k publikaci</translation>
     </message>
     <message>
         <source>Discard</source>
@@ -1198,7 +1198,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation>%login_link_startLog v %login_link_end nebo %create_link_startcreate uživatelský účet %create_link_end do komentáře.</translation>
+        <translation>Pro přidání komentáře se %login_link_startpřihlašte%login_link_end nebo %create_link_startzaregistrujte%create_link_end.</translation>
     </message>
     <message>
         <source>Tip a friend</source>
@@ -1206,7 +1206,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Související obsah</translation>
     </message>
 </context>
 <context>
@@ -1235,7 +1235,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation>%login_link_startLog v %login_link_startLog nebo %create_link_startcreate uživatelský účet %create_link_end do komentáře.</translation>
+        <translation>Pro přidání komentáře se %login_link_startpřihlašte%login_link_end nebo %create_link_startzaregistrujte%create_link_end.</translation>
     </message>
 </context>
 <context>
@@ -1268,7 +1268,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Tue</source>
-        <translation>Út</translation>
+        <translation>út</translation>
     </message>
     <message>
         <source>Wed</source>
@@ -1472,7 +1472,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Související obsah</translation>
     </message>
 </context>
 <context>
@@ -1921,7 +1921,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Třída</translation>
+        <translation type="unfinished">Typ</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object that triggers the export. Click the "Set" button to load the correct attribute types for the remaining fields.</source>
@@ -2056,7 +2056,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Třída</translation>
+        <translation type="unfinished">Typ</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object the import should create. Click the "Set" button to load the attribute types for the remaining fields.</source>
@@ -2807,7 +2807,7 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/user/login</name>
     <message>
         <source>Login</source>
-        <translation>Login</translation>
+        <translation>Přihlášení</translation>
     </message>
     <message>
         <source>Could not login</source>
@@ -2845,7 +2845,7 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Login</source>
         <comment>Button</comment>
-        <translation>Login</translation>
+        <translation>Přihlášení</translation>
     </message>
     <message>
         <source>Sign up</source>
