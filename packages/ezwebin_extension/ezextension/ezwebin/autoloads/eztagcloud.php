@@ -3,7 +3,7 @@
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 // SOFTWARE NAME: eZ Publish Website Interface
 // SOFTWARE RELEASE: 1.4-0
-// COPYRIGHT NOTICE: Copyright (C) 1999-2013 eZ Systems AS
+// COPYRIGHT NOTICE: Copyright (C) 1999-2014 eZ Systems AS
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // NOTICE: >
 //   This program is free software; you can redistribute it and/or
@@ -125,15 +125,18 @@ class eZTagCloud
                 $languageFilter .= 'AND ' . eZContentLanguage::languagesSQLFilter( 'ezcontentobject_attribute', 'language_id' );
 
                 $rs = $db->arrayQuery( "SELECT ezkeyword.keyword, count(ezkeyword.keyword) AS keyword_count
-                                        FROM ezkeyword $sqlPermissionChecking[from], ezkeyword_attribute_link
+                                        FROM ezkeyword_attribute_link
                                         LEFT JOIN ezcontentobject_attribute
                                             ON ezkeyword_attribute_link.objectattribute_id = ezcontentobject_attribute.id
                                         LEFT JOIN ezcontentobject
                                             ON ezcontentobject_attribute.contentobject_id = ezcontentobject.id
                                         LEFT JOIN ezcontentobject_tree
                                             ON ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
-                                        WHERE ezkeyword.id = ezkeyword_attribute_link.keyword_id
-                                            AND ezcontentobject.status = " . eZContentObject::STATUS_PUBLISHED . "
+                                        LEFT JOIN ezkeyword
+                                            ON ezkeyword.id = ezkeyword_attribute_link.keyword_id
+                                        $sqlPermissionChecking[from]
+                                        WHERE
+                                            ezcontentobject.status = " . eZContentObject::STATUS_PUBLISHED . "
                                             AND ezcontentobject_attribute.version = ezcontentobject.current_version
                                             AND ezcontentobject_tree.main_node_id = ezcontentobject_tree.node_id
                                             $pathString
