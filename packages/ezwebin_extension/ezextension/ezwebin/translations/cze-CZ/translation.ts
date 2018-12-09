@@ -3026,32 +3026,6 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
-    <name>design/standard/content/datatype</name>
-    <message>
-        <source>Second</source>
-        <translation type="unfinished" />
-    </message>
-</context>
-<context>
-    <name>design/standard/user</name>
-    <message>
-        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation type="unfinished" />
-    </message>
-    <message>
-        <source>Your account is now activated.</source>
-        <translation type="unfinished">Váš účet byl právě aktivován.</translation>
-    </message>
-    <message>
-        <source>Your account is already active.</source>
-        <translation type="unfinished">Váš účet je již aktivní.</translation>
-    </message>
-    <message>
-        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="unfinished">Lituji, ale klíč není platný. Uživatelský účet nebude aktivován.</translation>
-    </message>
-</context>
-<context>
     <name>extension/ezodf</name>
     <message>
         <source>Document imported as</source>
